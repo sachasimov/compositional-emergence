@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+.mypy_cache/
+# Large experimental data: preserve small summaries and manifests
+results/raw/
+results/large/
+*.parquet
+*.npy
+*.npz
+.DS_Store
+.idea/
+.vscode/
