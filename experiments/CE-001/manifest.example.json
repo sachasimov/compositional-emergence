@@ -1,0 +1,18 @@
+{
+  "experiment_id": "CE-001",
+  "status": "template-not-an-observation",
+  "system": "life",
+  "rule": "B3/S23",
+  "boundary": "periodic",
+  "shape": [
+    40,
+    40
+  ],
+  "steps": 20,
+  "seed": 42,
+  "initial_density": 0.25,
+  "code_revision": "REPLACE_WITH_GIT_SHA",
+  "detector_version": "not-yet-defined",
+  "outputs": [],
+  "notes": "Template only; populate after executing an approved protocol."
+}
