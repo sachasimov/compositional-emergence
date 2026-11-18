@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "workstream": "cycle-002-literature",
+  "base_revision": "18c7beff8f60ff60e28b81db2b9ac1250127e099",
+  "status": "source-retrieval-record-not-experimental-results",
+  "artifacts": [
+    {
+      "id": "RC2018",
+      "url": "https://arxiv.org/pdf/1801.00515v1",
+      "final_url": "https://arxiv.org/pdf/1801.00515v1",
+      "content_type": "application/pdf",
+      "bytes": 3340221,
+      "sha256": "67306260bd706fac0822348130e29e2ac8cf1220792a31332c09c888c534c71c",
+      "retrieved_date": "2026-11-18",
+      "version": "arXiv:1801.00515v1",
+      "inspection": "named sections checked; no numerical replication"
+    },
+    {
+      "id": "B2011",
+      "url": "https://arxiv.org/pdf/1105.0158v2",
+      "final_url": "https://arxiv.org/pdf/1105.0158v2",
+      "content_type": "application/pdf",
+      "bytes": 425339,
+      "sha256": "ae7953a4621f379751722e43b188f5ad7c29e37dd22a321c1ee608e22906e6f2",
+      "retrieved_date": "2026-11-18",
+      "version": "arXiv:1105.0158v2",
+      "inspection": "named sections checked; no numerical replication"
+    },
+    {
+      "id": "C2004",
+      "url": "https://content.wolfram.com/sites/13/2023/02/15-1-1.pdf",
+      "final_url": "https://content.wolfram.com/sites/13/2023/02/15-1-1.pdf",
+      "content_type": "application/pdf",
+      "bytes": 903483,
+      "sha256": "c9a2885248ae2811c5825c5bcbaa52ca167a7d5300ba88f87ee832b93b293c03",
+      "retrieved_date": "2026-11-18",
+      "version": "Complex Systems 15(1), 1-40 (2004), publisher-hosted PDF",
+      "inspection": "Sections 1-2 and 2.3 spot-checked; full proof not audited"
+    }
+  ]
+}

@@ -1,5 +1,25 @@
 # Literature and novelty workstream
 
+## Cycle 002 — Stage B methods
+
+The user approved one additional bounded cycle on 2026-11-18. Its independent
+literature contribution is a completed primary-source methodology review:
+
+- [Methods dossier](methods-cycle-002.md): verified definitions, distinctions
+  between recurrence and autonomy, fair baselines, and falsifiable evaluation
+  safeguards for a localized candidate assay.
+- [Search/access log](search-cycle-002.md): resolved reading leads and retained
+  failures; no numerical experiment or exhaustive novelty search.
+- [Source artifact manifest](source-artifacts-cycle-002.json): version-pinned PDF
+  retrieval identities and inspection limits.
+
+This review does not change the simulation workstream's frozen labels or
+protocol. No Stage C, H1–H3 experiment, or third cycle is authorized by it.
+Independent critical review and PR handoff are required; merge approval remains
+a separate human decision for the new contribution.
+
+## Cycle 001 — historical dossier
+
 Cycle 001 was executed on 2026-11-18. The deliverable is a bounded primary-source
 review, not an established novelty claim or a test of H1–H3.
 
@@ -18,5 +38,6 @@ coupling remains a candidate question, not a verified gap. No experiments were
 conducted in this workstream.
 
 Critical review must audit source locators and distinguish abstract-level from
-full-text verification. No PR merge or next research cycle is authorized; the
-proposed future tests require approval and a frozen protocol.
+full-text verification. The cycle-001 files retain the evidence and stop gate
+as recorded then; subsequent authorization is recorded in project governance.
+Their proposed H1–H3 tests still require approval and a frozen protocol.
