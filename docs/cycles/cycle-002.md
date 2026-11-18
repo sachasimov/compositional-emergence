@@ -1,5 +1,12 @@
 # Cycle 002 — localized candidate validation
 
+Historical cycle record: the user subsequently instructed "continue" and the
+coordinator stated its interpretation as approval to merge reviewed PRs #5–#7
+and execute one further bounded cycle. They are merged at integrated `main`
+`aeed31d4487908029b0107f253f8329a795a78cd`. See D-007 and
+[cycle 003](cycle-003.md) for current scope. The original outcomes, protocol and
+independent audit remain unchanged.
+
 Date: 2026-11-18. Baseline: merged cycle-001 contributions at
 `18c7beff8f60ff60e28b81db2b9ac1250127e099`. Authorization and interpretation are
 recorded in D-006. The integrated baseline passes 29 tests. This document defines

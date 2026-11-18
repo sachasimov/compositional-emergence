@@ -2,7 +2,8 @@
 
 Historical cycle-001 record. The user subsequently approved merging PRs #2, #4,
 and #3; all are merged, with integrated `main` at `18c7bef`. Current authorized
-work is [cycle 002](cycles/cycle-002.md), limited to Stage B detector validation.
+work is [cycle 003](cycles/cycle-003.md), limited to Stage B phase/proximity
+validation. Cycle-002 PRs #5–#7 were subsequently approved and merged as well.
 
 Authorization: user request in Codex, 2026-11-18. One cycle with two independent
 workstreams is approved. Merge and any subsequent research cycle require

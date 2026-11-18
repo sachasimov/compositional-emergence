@@ -23,8 +23,9 @@ results directly to chemistry or fundamental physics.
 
 The current milestone is CE-001: establish trusted simulation and validate
 structure detection before spontaneous discovery experiments. Stage A and a
-narrow whole-grid recurrence pilot are implemented and audited. Cycle 002
-addresses localized-candidate validation in Stage B; Stage C remains pending.
+narrow whole-grid recurrence pilot are implemented and audited. Cycle 002's
+localized method is merged with three scored misses retained. Cycle 003 addresses
+phase and proximity limitations in Stage B; Stage C remains pending.
 Verify the current evidence before updating that status.
 
 ## Roles
@@ -50,14 +51,15 @@ Question → Literature check → Competing hypotheses → Frozen protocol → T
 
 ### Authorized cycle and stop gate
 
-The user authorized the initial literature/novelty and CE-001 implementation
-cycle, then approved its reviewed PR merges and one further bounded cycle on
-2026-11-18. Cycle 002 covers detector-method literature and CE-001 Stage B
-localized-candidate validation, as defined in `docs/cycles/cycle-002.md`.
+The user approved the reviewed cycle-001 and cycle-002 PRs and their bounded
+continuations on 2026-11-18. The latest instruction, "continue", authorizes the
+cycle-002 merges and one cycle-003 continuation, as stated by the coordinator.
+Cycle 003 covers phase/identity methodology and CE-001 Stage B validation of
+phase/proximity limitations, as defined in `docs/cycles/cycle-003.md`.
 Track contributions in separate GitHub pull requests and follow
 `docs/CRITICAL_REVIEW.md`. See `docs/WORKSTREAMS.md` for contribution standards
 and historical tracking. Fixing review findings within the approved scope is
-part of that same cycle. New cycle-002 PRs need fresh human merge approval.
+part of that same cycle. New cycle-003 PRs need fresh human merge approval.
 Do not merge pull requests, enable auto-merge, or initiate a new research cycle
 without explicit human approval. Opening a PR or completing an AI audit is not
 approval to advance to the next milestone or start spontaneous discovery runs.

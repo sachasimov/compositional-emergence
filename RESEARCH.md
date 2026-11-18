@@ -52,3 +52,11 @@ One additional bounded cycle is authorized for detector methodology and CE-001
 Stage B localized-candidate validation (`docs/cycles/cycle-002.md`). Its new
 contributions require independent review and fresh merge approval. Stage C and
 later research cycles remain gated.
+
+The user subsequently approved cycle-002 PRs #5–#7 and one targeted continuation.
+Integrated `main` at `aeed31d` passes 42 tests. The merged geometric method
+matches 13/16 labelled objects in a fixed engineered panel, with three retained
+false negatives; this is not general object validation. Cycle 003 addresses
+phase/proximity limitations with the previous method as a direct baseline.
+See D-007 and `docs/cycles/cycle-003.md`. New contribution merges and any further
+cycle require fresh approval.
