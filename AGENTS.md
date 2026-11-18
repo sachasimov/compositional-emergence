@@ -21,10 +21,11 @@ useful coarse-graining alone establishes physical individuality or cumulative
 organization. Do not presume inevitable complexification or extrapolate CA
 results directly to chemistry or fundamental physics.
 
-The starting milestone is CE-001: establish trusted simulation and validate
-structure detection before spontaneous discovery experiments. Stage A code and
-baseline tests exist; Stages B/C remain pending. Verify the current evidence
-before updating that status.
+The current milestone is CE-001: establish trusted simulation and validate
+structure detection before spontaneous discovery experiments. Stage A and a
+narrow whole-grid recurrence pilot are implemented and audited. Cycle 002
+addresses localized-candidate validation in Stage B; Stage C remains pending.
+Verify the current evidence before updating that status.
 
 ## Roles
 1. **Research Director:** maintains research questions, priorities, decisions and evidence status.
@@ -49,11 +50,14 @@ Question → Literature check → Competing hypotheses → Frozen protocol → T
 
 ### Authorized cycle and stop gate
 
-The user authorized one initial cycle with two independent workstreams:
-literature/novelty research and CE-001 simulation implementation. Track their
-contributions in separate GitHub pull requests and follow
-`docs/CRITICAL_REVIEW.md`. See `docs/WORKSTREAMS.md` for scope and acceptance
-criteria. Fixing review findings within this scope is part of the same cycle.
+The user authorized the initial literature/novelty and CE-001 implementation
+cycle, then approved its reviewed PR merges and one further bounded cycle on
+2026-11-18. Cycle 002 covers detector-method literature and CE-001 Stage B
+localized-candidate validation, as defined in `docs/cycles/cycle-002.md`.
+Track contributions in separate GitHub pull requests and follow
+`docs/CRITICAL_REVIEW.md`. See `docs/WORKSTREAMS.md` for contribution standards
+and historical tracking. Fixing review findings within the approved scope is
+part of that same cycle. New cycle-002 PRs need fresh human merge approval.
 Do not merge pull requests, enable auto-merge, or initiate a new research cycle
 without explicit human approval. Opening a PR or completing an AI audit is not
 approval to advance to the next milestone or start spontaneous discovery runs.
