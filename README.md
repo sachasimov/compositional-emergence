@@ -18,6 +18,8 @@ We do **not** assume the universe optimizes complexity, performs purposeful sear
 - [literature/README.md](literature/README.md): reading map and verification tasks.
 - [experiments/CE-001/protocol.md](experiments/CE-001/protocol.md): first benchmark protocol.
 - [issues/CE-001.md](issues/CE-001.md): initial GitHub issue draft.
+- [docs/cycles/cycle-002.md](docs/cycles/cycle-002.md): current bounded Stage B workstreams and approval gate.
+- [docs/reviews/cycle-001.md](docs/reviews/cycle-001.md): independent audit of the merged foundation and recurrence pilot.
 
 ## Running the starter simulator
 
@@ -51,4 +53,8 @@ This initial code is a **verified simulation baseline**, not an automated discov
 
 ## Status
 
-**Stage:** Research foundation / CE-001 planned. No original discovery or universal claim has been established.
+**Stage:** CE-001 Stage A and the engineered whole-grid recurrence pilot are
+implemented, independently audited, and merged. Cycle 002 addresses conservative
+localized-candidate validation in Stage B. Stage C, H1–H3 validation, and
+scientific novelty remain unestablished. New cycle-002 PRs require human approval
+before merging or further research cycles.
