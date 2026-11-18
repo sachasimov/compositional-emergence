@@ -1,0 +1,7 @@
+-e git+https://github.com/sachasimov/compositional-emergence.git@2722fbb3ee6644958146fb6624c49507e7510fb3#egg=compositional_emergence&subdirectory=../../../ce-simulation
+iniconfig==2.3.1
+numpy==2.5.5
+packaging==26.3
+pluggy==1.7.0
+Pygments==2.21.0
+pytest==9.2.0
