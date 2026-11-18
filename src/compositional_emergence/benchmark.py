@@ -34,13 +34,17 @@ def cases():
                       "split": split, "max_period": 12, "max_shift": 4, **kwargs})
     for name, points in [("block", BLOCK), ("blinker", BLINKER),
                          ("glider", GLIDER), ("toad", TOAD)]:
-        add(name, points, True)
+        period, shift = {"block": (1, (0, 0)), "blinker": (2, (0, 0)),
+                         "glider": (4, (1, 1)), "toad": (2, (0, 0))}[name]
+        add(name, points, True, expected_recurrence={"period": period, "displacement": shift})
     for name, points in [("empty", []), ("single", [(0, 0)]),
                          ("adjacent-pair", [(0, 0), (0, 1)]),
                          ("separated-pair", [(0, 0), (5, 5)])]:
         add(name, points, False)
-    add("reflected-glider", [(y, -x) for y, x in GLIDER], True, "held-out")
-    add("rotated-toad", [(x, -y) for y, x in TOAD], True, "held-out")
+    add("reflected-glider", [(y, -x) for y, x in GLIDER], True, "held-out",
+        expected_recurrence={"period": 4, "displacement": (1, -1)})
+    add("rotated-toad", [(x, -y) for y, x in TOAD], True, "held-out",
+        expected_recurrence={"period": 2, "displacement": (0, 0)})
     add("diagonal-pair", [(0, 0), (1, 1)], False, "held-out")
     add("short-window-blinker", BLINKER, None, "diagnostic", max_period=1,
         limitation="Known oscillator is missed when the period window is too short.")
@@ -77,9 +81,22 @@ def confusion(rows, key):
             "false_positive_rate": ratio(fp, fp+tn), "accuracy": ratio(tp+tn, len(scored))}
 
 
+def fixture_expectation_met(row):
+    """Evaluate exact known signatures, not only presence of some recurrence."""
+    if row["status"] != "ok":
+        return False
+    if row["label"] is None:
+        return True  # Diagnostics have no scored ground truth.
+    if not row["label"]:
+        return row["recurrence"] is None
+    actual, expected = row["recurrence"], row["expected_recurrence"]
+    return (actual is not None and actual["period"] == expected["period"] and
+            tuple(actual["displacement"]) == tuple(expected["displacement"]))
+
+
 def run_pilot(protocol: Path):
     started = time.perf_counter()
-    output = {"experiment_id": "CE-001", "protocol_version": "pilot-v1",
+    output = {"experiment_id": "CE-001", "protocol_version": "pilot-v1-review-amendment-1",
               "status": "engineered-assay-pilot-not-general-object-validation",
               "protocol_sha256": hashlib.sha256(protocol.read_bytes()).hexdigest(),
               "provenance": source_provenance(), "rule": "B3/S23", "boundary": "periodic",
@@ -104,9 +121,9 @@ def run_pilot(protocol: Path):
         output["metrics"][split] = {key: confusion(rows, key) for key in
                                    ("assay", "occupancy_baseline", "stationarity_baseline")}
     output["elapsed_seconds"] = time.perf_counter() - started
-    output["passed_fixture_expectations"] = not any(
-        r["status"] != "ok" or (r["label"] is not None and r["assay"] != r["label"])
-        for r in output["cases"])
+    for row in output["cases"]:
+        row["fixture_expectation_met"] = fixture_expectation_met(row)
+    output["passed_fixture_expectations"] = all(r["fixture_expectation_met"] for r in output["cases"])
     return output
 
 
@@ -114,7 +131,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--protocol", type=Path,
-                        default=Path(__file__).resolve().parents[2] / "experiments/CE-001/pilot-v1.md")
+                        default=Path(__file__).resolve().parents[2] / "experiments/CE-001/pilot-v1-review-amendment-1.md")
     args = parser.parse_args(argv)
     if args.output.exists():
         parser.error("output already exists; preserve prior results and choose another path")

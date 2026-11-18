@@ -1,4 +1,5 @@
-from compositional_emergence.benchmark import cases, confusion
+import pytest
+from compositional_emergence.benchmark import cases, confusion, fixture_expectation_met
 
 
 def test_frozen_panel_separates_known_labels_from_unlabelled_diagnostics():
@@ -17,3 +18,14 @@ def test_metrics_account_for_errors_and_undefined_denominators():
     result = confusion(rows, "assay")
     assert [result[k] for k in ["tp", "fp", "tn", "fn", "n_errors"]] == [1, 1, 1, 1, 1]
     assert result["accuracy"] == 0.5
+
+
+@pytest.mark.parametrize("wrong", [{"period": 2, "displacement": [1, 1]},
+                                  {"period": 4, "displacement": [-1, 1]}])
+def test_wrong_recurrence_signature_cannot_pass(wrong):
+    row = {"label": True, "status": "ok", "assay": True,
+           "expected_recurrence": {"period": 4, "displacement": [1, 1]},
+           "recurrence": wrong}
+    assert not fixture_expectation_met(row)
+    row["recurrence"] = row["expected_recurrence"]
+    assert fixture_expectation_met(row)

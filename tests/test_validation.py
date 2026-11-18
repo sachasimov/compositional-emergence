@@ -71,3 +71,12 @@ def test_manifest_replays_full_state_and_records_hashes(system, capsys):
 def test_cli_rejects_negative_seed():
     with pytest.raises(SystemExit):
         main(["--system", "life", "--seed", "-1"])
+
+
+def test_cli_preserves_existing_run_evidence(tmp_path):
+    output = tmp_path / "original-run.json"
+    main(["--system", "life", "--size", "8", "--output", str(output)])
+    original = output.read_bytes()
+    with pytest.raises(SystemExit):
+        main(["--system", "life", "--size", "8", "--seed", "999", "--output", str(output)])
+    assert output.read_bytes() == original

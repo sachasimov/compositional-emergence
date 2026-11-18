@@ -23,6 +23,8 @@ def main(argv: list[str] | None = None) -> None:
         parser.error("ECA rule must lie in [0,255]")
     if args.seed < 0:
         parser.error("seed must be nonnegative")
+    if args.output is not None and args.output.exists():
+        parser.error("output already exists; preserve prior results and choose another path")
     rng = np.random.Generator(np.random.PCG64(args.seed))
     shape = (args.size, args.size) if args.system == "life" else (args.size,)
     state = (rng.random(shape) < args.density).astype(np.uint8)
@@ -49,7 +51,11 @@ def main(argv: list[str] | None = None) -> None:
         print(encoded, end="")
     else:
         args.output.parent.mkdir(parents=True, exist_ok=True)
-        args.output.write_text(encoded, encoding="utf-8")
+        try:
+            with args.output.open("x", encoding="utf-8") as stream:
+                stream.write(encoded)
+        except FileExistsError:
+            parser.error("output already exists; preserve prior results and choose another path")
 
 if __name__ == "__main__":
     main()
