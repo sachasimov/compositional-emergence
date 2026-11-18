@@ -11,3 +11,10 @@ Exact translational recurrence is a sanity test for isolated patterns, not a com
 
 ## D-004 — Protect negative evidence
 Record all runs, including null and failed runs. Prefer simple interpretable baselines.
+
+## D-005 — One approved cycle with independent contributions
+On 2026-11-18 the user authorized literature/novelty research and CE-001
+simulation implementation as independent workstreams, with critical review and
+GitHub PR tracking. Separate branches and PRs preserve contribution provenance.
+Do not merge PRs, enable auto-merge, or initiate a new research cycle without
+explicit human approval. See `WORKSTREAMS.md` and `CRITICAL_REVIEW.md`.
