@@ -21,3 +21,12 @@ The independent critical review produced
 run-file preservation. The original run remains archived; see
 [review validation](../../results/CE-001/pilot-v1-review-validation.md) for the
 separate repair execution and unchanged negative/diagnostic results.
+
+## Cycle 002 localized candidates
+
+The [frozen localized-candidate protocol](cycle-002-localized-v1.md) defines a
+conservative window-start assay that can distinguish separated structures with
+different motion. The [complete results and limitations](../../results/CE-001/cycle-002-localized-v1-report.md)
+retain three scored false negatives and six unlabelled diagnostic trajectories.
+This advances bounded Stage B methodology; general object identity, births,
+collision-product tracking, Stage C and H1–H3 remain untested.
