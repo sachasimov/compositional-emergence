@@ -38,3 +38,17 @@ Begin with elementary cellular automata and Conway Life, followed by selected ri
 - M4: Replicate and test on held-out rule families; write a carefully scoped paper if warranted.
 
 Advance only when evidence is inspectable, assumptions are explicit, literature checked and an independent review has been completed. A null finding or rigorous counterexample is a valid research outcome.
+
+## Current evidence status — 2026-11-18
+
+Cycle-001 contributions were independently audited and merged with human
+approval. Stage A implementation and a small engineered whole-grid recurrence
+assay pilot are available; the integrated baseline passes 29 tests. This is
+method-validation evidence, not support for H1–H3 or general object detection.
+The literature dossier records substantial prior overlap and does not certify
+novelty. See `docs/reviews/cycle-001.md` for the audit and its limitations.
+
+One additional bounded cycle is authorized for detector methodology and CE-001
+Stage B localized-candidate validation (`docs/cycles/cycle-002.md`). Its new
+contributions require independent review and fresh merge approval. Stage C and
+later research cycles remain gated.

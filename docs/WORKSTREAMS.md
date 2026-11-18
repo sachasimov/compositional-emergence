@@ -1,5 +1,9 @@
 # Initial research cycle — CE-001 foundation
 
+Historical cycle-001 record. The user subsequently approved merging PRs #2, #4,
+and #3; all are merged, with integrated `main` at `18c7bef`. Current authorized
+work is [cycle 002](cycles/cycle-002.md), limited to Stage B detector validation.
+
 Authorization: user request in Codex, 2026-11-18. One cycle with two independent
 workstreams is approved. Merge and any subsequent research cycle require
 explicit human approval. The coordinating agent prepares the reviewable work;
@@ -68,7 +72,9 @@ issues; no open blocking findings remain for the submitted dossier and assay
 pilot. This is not a validation of H1–H3, a general detector, or scientific
 novelty. The pilot retains all 19 engineered cases; 29 implementation tests pass.
 The literature dossier records substantial prior overlap and primary-text access
-limits. All three contribution PRs remain drafts awaiting human decisions.
+limits. At the initial handoff all three contribution PRs were drafts awaiting
+human decisions; those decisions and approved merges are recorded in D-006.
 
 This authorized cycle is stopped. No merge, automatic advancement, Stage C run,
-or subsequent research cycle is authorized by this handoff.
+or subsequent research cycle was authorized by that initial handoff itself.
+The subsequent user approval authorizes only the continuation recorded above.
