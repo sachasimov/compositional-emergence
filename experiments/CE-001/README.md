@@ -30,3 +30,14 @@ different motion. The [complete results and limitations](../../results/CE-001/cy
 retain three scored false negatives and six unlabelled diagnostic trajectories.
 This advances bounded Stage B methodology; general object identity, births,
 collision-product tracking, Stage C and H1–H3 remain untested.
+
+## Cycle 003 phase and proximity sensitivity
+
+The [frozen topology protocol](cycle-003-topology-v1.md) and versioned
+`localized_v2.py` group shared-coordinate spacetime components, while preserving
+the cycle-002 method as an unchanged same-input baseline. The
+[methods/results](../../results/CE-001/cycle-003-topology-v1-report.md) recover the
+three known development misses and retain a scored composite-fusion false
+positive plus two false negatives under the supplied tub decomposition.
+Prospective phase/spacing checks are authored robustness fixtures, not blinded
+discovery or unique physical object identification.
