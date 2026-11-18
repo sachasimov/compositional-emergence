@@ -1,16 +1,22 @@
-# Literature and novelty program
+# Literature and novelty workstream
 
-Build a matrix for each proposed claim: closest paper, established theorem or experiment, assumptions, what remains open, and a discriminating test. Do not assume unexamined gaps are novel.
+Cycle 001 was executed on 2026-11-18. The deliverable is a bounded primary-source
+review, not an established novelty claim or a test of H1–H3.
 
-## Core references
-- Rosas (2026), *Symmetry as a common origin of hierarchical emergence and abstraction*, DOI: 10.1126/sciadv.aeh0773.
-- Rosas et al. (2024), *Software in the natural world: A computational approach to hierarchical emergence*, arXiv:2402.09090.
-- Israeli & Goldenfeld (2006), *Coarse-graining of cellular automata, emergence, and predictability of complex systems*, DOI:10.1103/PhysRevE.73.026203.
-- Crutchfield (1994), *The calculi of emergence*.
-- Simon (1962), *The Architecture of Complexity*.
-- W. Brian Arthur / Brian Potter, technological evolution and reuse of intermediate components.
-- Computational mechanics of CA domains, particles and collisions; artificial life and open-ended evolution.
-- Assembly theory and technical critiques.
+- [Source ledger](sources-cycle-001.md): eight primary works, claim locators,
+  version and access limitations.
+- [Novelty dossier](novelty-cycle-001.md): overlap, falsifiable test proposals,
+  simple baselines, and negative findings.
+- [Search log](search-cycle-001.md): exact queries, retrieval routes, failures,
+  and coverage limits.
+- [Bibliography](bibliography.bib): identifiers and verified metadata. Entries
+  outside the ledger have not been verified by this workstream.
 
-## High-priority searches
-Automatic detection and tracking of gliders/particles; autonomous macrodynamics under coupling; spontaneous multigeneration pattern formation; reliable metrics of compositional productivity; examples where a useful macrovariable does not correspond to an autonomous object.
+Detection, particle interactions, and autonomy have substantial prior art. The
+narrower question of incremental prediction of compositional productivity under
+coupling remains a candidate question, not a verified gap. No experiments were
+conducted in this workstream.
+
+Critical review must audit source locators and distinguish abstract-level from
+full-text verification. No PR merge or next research cycle is authorized; the
+proposed future tests require approval and a frozen protocol.
