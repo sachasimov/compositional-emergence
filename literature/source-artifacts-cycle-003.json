@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "workstream": "cycle-003-literature",
+  "base_revision": "aeed31d4487908029b0107f253f8329a795a78cd",
+  "status": "source-retrieval-record-not-experimental-results",
+  "artifacts": [
+    {
+      "id": "HC1997",
+      "url": "https://csc.ucdavis.edu/~cmg/papers/ECA54.pdf",
+      "final_url": "https://csc.ucdavis.edu/~cmg/papers/ECA54.pdf",
+      "version": "author-hosted published PDF; Physica D 103,169-189 (1997)",
+      "retrieved_date": "2026-11-18",
+      "content_type": "application/pdf",
+      "bytes": 4218828,
+      "sha256": "6c7765a9d9a78be8d653e97c8907cd03632be8ab2cc6ceb1430d0746ed067814",
+      "inspected_locators": [
+        "4.2",
+        "5.1",
+        "5.2",
+        "Fig. 5",
+        "Fig. 8",
+        "Fig. 9",
+        "Table 1"
+      ],
+      "inspection_scope": "named primary sections checked; no algorithm replication or theorem certification"
+    },
+    {
+      "id": "S2006",
+      "url": "https://arxiv.org/pdf/nlin/0508001v1",
+      "final_url": "https://arxiv.org/pdf/nlin/0508001v1",
+      "version": "arXiv:nlin/0508001v1",
+      "retrieved_date": "2026-11-18",
+      "content_type": "application/pdf",
+      "bytes": 1723342,
+      "sha256": "83f41119770420b6c2c27f00a174149f0e77b9bd0dbee58db5e512ad975c7456",
+      "inspected_locators": [
+        "II A",
+        "III",
+        "IV C"
+      ],
+      "inspection_scope": "named primary sections checked; no algorithm replication or theorem certification"
+    },
+    {
+      "id": "RC2018",
+      "url": "https://arxiv.org/pdf/1801.00515v1",
+      "final_url": "https://arxiv.org/pdf/1801.00515v1",
+      "version": "arXiv:1801.00515v1",
+      "retrieved_date": "2026-11-18",
+      "content_type": "application/pdf",
+      "bytes": 3340221,
+      "sha256": "67306260bd706fac0822348130e29e2ac8cf1220792a31332c09c888c534c71c",
+      "inspected_locators": [
+        "II B1",
+        "III B",
+        "IV C2",
+        "Figs. 9-10"
+      ],
+      "inspection_scope": "named primary sections checked; no algorithm replication or theorem certification",
+      "matches_cycle_002_sha256": true
+    }
+  ]
+}

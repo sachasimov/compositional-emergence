@@ -1,6 +1,26 @@
 # Literature and novelty workstream
 
-## Cycle 002 — Stage B methods
+## Cycle 003 — phase, segmentation, and identity
+
+The user approved one further bounded cycle on 2026-11-18. Its independent
+literature contribution re-inspects relevant primary methods without tuning
+the new implementation's code, labels or outcomes:
+
+- [Identity and invariance memo](identity-cycle-003.md): verified primary claim
+  locators, phase/type/instance distinctions, proximity versus interaction,
+  nonunique decompositions, falsifiable invariance checks, and fair ablations.
+- [Focused search/access log](search-cycle-003.md): three existing references
+  re-inspected; bounded searches and verification limits.
+- [Source artifact manifest](source-artifacts-cycle-003.json): exact PDF versions,
+  URLs, retrieval dates and content hashes.
+
+Known cycle-002 misses remain development regressions. Prospective phases and
+translations are correlated robustness checks, not independent population data.
+This memo makes no autonomy, compositional-productivity or novelty finding.
+Independent critique and PR handoff end this workstream; new merges, Stage C,
+H1–H3 experiments, publication and cycle 004 require fresh approval.
+
+## Cycle 002 — historical Stage B methods
 
 The user approved one additional bounded cycle on 2026-11-18. Its independent
 literature contribution is a completed primary-source methodology review:
