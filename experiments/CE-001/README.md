@@ -15,3 +15,9 @@ frozen engineered recurrence-assay supplement and
 The supplement executes a limited Stage B assay pilot only: general object
 detection, event tracking and Stage C remain pending. It does not supersede the
 original draft protocol or establish any emergence/composition hypothesis.
+
+The independent critical review produced
+[amendment 1](pilot-v1-review-amendment-1.md) for exact signature acceptance and
+run-file preservation. The original run remains archived; see
+[review validation](../../results/CE-001/pilot-v1-review-validation.md) for the
+separate repair execution and unchanged negative/diagnostic results.
