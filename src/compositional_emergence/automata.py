@@ -1,9 +1,16 @@
 """Minimal deterministic cellular automata with explicit periodic boundaries."""
 import numpy as np
 
+def binary_state(state: np.ndarray) -> np.ndarray:
+    """Validate before conversion: floats and overflowing integers must not truncate."""
+    a = np.asarray(state)
+    if a.dtype.kind not in "biuf" or not np.isin(a, [0, 1]).all():
+        raise ValueError("states must contain only numeric binary values")
+    return a.astype(np.uint8, copy=False)
+
 def life_step(state: np.ndarray) -> np.ndarray:
     """One B3/S23 Game of Life update on a 2-D toroidal grid."""
-    a = np.asarray(state, dtype=np.uint8)
+    a = binary_state(state)
     if a.ndim != 2 or min(a.shape) < 3:
         raise ValueError("Life requires a 2-D grid at least 3x3")
     if not np.isin(a, [0, 1]).all():
@@ -17,12 +24,12 @@ def life_step(state: np.ndarray) -> np.ndarray:
 
 def eca_step(state: np.ndarray, rule: int) -> np.ndarray:
     """ECA update on a periodic ring, using Wolfram's numbering."""
-    a = np.asarray(state, dtype=np.uint8)
+    a = binary_state(state)
     if a.ndim != 1 or a.size < 3:
         raise ValueError("ECA requires a 1-D ring with at least 3 cells")
     if not np.isin(a, [0, 1]).all():
         raise ValueError("ECA states must be binary")
-    if not isinstance(rule, (int, np.integer)) or not 0 <= rule <= 255:
+    if isinstance(rule, (bool, np.bool_)) or not isinstance(rule, (int, np.integer)) or not 0 <= rule <= 255:
         raise ValueError("ECA rule must be an integer in [0, 255]")
     left, right = np.roll(a, 1), np.roll(a, -1)
     neighborhood = (left << 2) | (a << 1) | right

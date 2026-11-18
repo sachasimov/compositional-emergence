@@ -1,7 +1,7 @@
 """Restricted Life recurrence assay; not a general object detector."""
 from dataclasses import dataclass
 import numpy as np
-from .automata import life_step
+from .automata import binary_state, life_step
 
 @dataclass(frozen=True)
 class Recurrence:
@@ -13,9 +13,11 @@ def exact_translational_recurrence(initial: np.ndarray, max_period: int = 12, ma
 
     Only meaningful for selected isolated patterns on sufficiently large grids.
     """
-    a = np.asarray(initial, dtype=np.uint8)
+    a = binary_state(initial)
     if a.ndim != 2 or min(a.shape) < 3:
         raise ValueError("expected a 2-D Life grid of at least 3x3")
+    if any(isinstance(x, (bool, np.bool_)) or not isinstance(x, (int, np.integer)) for x in (max_period, max_shift)):
+        raise ValueError("max_period and max_shift must be integers")
     if max_period < 1 or max_shift < 0:
         raise ValueError("max_period must be >=1 and max_shift >=0")
     if not np.any(a):
