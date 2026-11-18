@@ -7,12 +7,12 @@ the human decides whether to accept it. No automatic advancement is authorized.
 
 ## Responsibilities and isolation
 
-| Contribution | Owner | Branch | Scope |
-|---|---|---|---|
-| Research governance | Coordinating agent | `research/cycle-001-governance` | Operating manual, review process, contribution tracking |
-| Literature / novelty | Literature Scientist agent | `research/cycle-001-literature` | Verified primary sources, claim matrix, search log, bounded novelty assessment |
-| CE-001 implementation | Simulation Engineer agent | `research/cycle-001-simulation` | Tested simulation, versioned assay protocol, reproducible pilot and complete outcomes |
-| Independent critique | Critical Reviewer agent | Review records on governance branch and PR comments | Audit both contributions and independently rerun the bounded pilot |
+| Contribution | Owner | Branch | Scope | Pull request |
+|---|---|---|---|---|
+| Research governance | Coordinating agent | `research/cycle-001-governance` | Operating manual, review process, contribution tracking | [#2](https://github.com/sachasimov/compositional-emergence/pull/2) |
+| Literature / novelty | Literature Scientist agent | `research/cycle-001-literature` | Verified primary sources, claim matrix, search log, bounded novelty assessment | [#4](https://github.com/sachasimov/compositional-emergence/pull/4) |
+| CE-001 implementation | Simulation Engineer agent | `research/cycle-001-simulation` | Tested simulation, versioned assay protocol, reproducible pilot and complete outcomes | [#3](https://github.com/sachasimov/compositional-emergence/pull/3) |
+| Independent critique | Critical Reviewer agent | Review records on governance branch and PR comments | Audit both contributions and independently rerun the bounded pilot | [Audit in #2](https://github.com/sachasimov/compositional-emergence/pull/2) |
 
 The two workstreams begin at the same repository revision and use separate
 worktrees and branches. Neither depends on the other's unpublished findings.
@@ -59,3 +59,16 @@ The coordinator records final PR links and audit dispositions in
 `docs/reviews/cycle-001.md`. Track review findings as stable IDs with severity,
 evidence, author response, resolution, and remaining human decisions. Source
 changes after review invalidate the affected part of the review until rechecked.
+
+## Cycle handoff
+
+Both workstreams completed their bounded initial contributions. The independent
+[audit](reviews/cycle-001.md) found and verified repairs for two implementation
+issues; no open blocking findings remain for the submitted dossier and assay
+pilot. This is not a validation of H1–H3, a general detector, or scientific
+novelty. The pilot retains all 19 engineered cases; 29 implementation tests pass.
+The literature dossier records substantial prior overlap and primary-text access
+limits. All three contribution PRs remain drafts awaiting human decisions.
+
+This authorized cycle is stopped. No merge, automatic advancement, Stage C run,
+or subsequent research cycle is authorized by this handoff.
