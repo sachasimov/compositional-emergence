@@ -32,3 +32,18 @@ critical review. Its scope is Stage B localized-candidate method validation,
 not Stage C discovery or H1–H3 confirmation. New PRs and a third cycle require
 fresh approval. See `cycles/cycle-002.md`. Preserve cycle-001 protocols, outputs,
 and audit as historical records.
+
+## D-007 — Approved cycle-002 merges and targeted failure analysis
+On 2026-11-18, after the cycle-002 handoff left its three new PRs in draft and
+stopped pending approval, the user instructed "continue". The coordinator
+stated its interpretation: merge reviewed PRs #5, #6, and #7 and execute one
+further bounded cycle focused on the three retained detector misses. Audited
+heads were checked before merge; original source/protocol commits were retained.
+Integrated `main` at `aeed31d4487908029b0107f253f8329a795a78cd` passes 42 tests.
+
+Cycle 003 tests phase/proximity limitations and new errors of any revised
+localized method. Prior misses are development regressions, not untouched
+validation. Use prespecified extended checks, the previous method on identical
+inputs, an appropriate local ablation, independent literature and critical
+review. This approval does not cover new PR merges, cycle 004, Stage C, or
+H1–H3 experiments. See `cycles/cycle-003.md`.

@@ -42,6 +42,13 @@ affected claim. Preserve the original finding and response history.
 
 ## Human decision gate
 
+Check the cycle's user-facing scientific report against the source evidence
+using `REPORTING.md`. Verify that it explains what was learned, what failed,
+what remains untested, and why the recommended next action follows. Test counts,
+PR completion, and "no blockers" cannot substitute for scientific conclusions.
+Flag incomparable panels presented as a trend, ambiguous labels presented as
+physical truth, and method development presented as a validated research finding.
+
 Post a concise audit summary on each contribution PR and link the durable review
 record. Hand off PRs with all limitations visible. Stop after this approved cycle.
 Only explicit human approval authorizes a merge or another research cycle;
