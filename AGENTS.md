@@ -128,6 +128,15 @@ gated by the validation requirements in `experiments/CE-001/protocol.md`.
 
 ## Working and verification practices
 
+- End every research cycle with a self-contained scientific status report in
+  chat, using `docs/REPORTING.md`, before requesting or interpreting approval to
+  continue. PR links and test counts are supporting evidence, not the report.
+  State findings, negative results, scientific implications, untested claims,
+  progress against the charter, and a specific recommended next decision.
+- Keep merge approval and next-cycle approval distinct in that handoff. A short
+  continuation instruction applies to the clearly stated proposed scope; do not
+  bundle unstated research or merge actions into it.
+
 - Inspect the working tree and preserve unrelated changes. Keep edits scoped to
   the assigned task; do not replace evidence with more favorable reruns.
 - For simulation or detector changes, follow the setup in `README.md` and run

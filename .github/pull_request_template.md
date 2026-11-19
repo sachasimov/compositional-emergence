@@ -18,5 +18,9 @@ Independent reviewer, reviewed revision, findings/responses, and review record:
 
 ## Human decision
 
+Link the cycle's scientific status report. The chat handoff must also explain
+the findings and their research implications without requiring the user to open
+this PR. Separate merge decisions from the proposed next research cycle.
+
 Merge and a new research cycle require explicit human approval. Do not enable
 auto-merge. State the specific decision requested and leave the PR unmerged.
