@@ -1,0 +1,840 @@
+{
+  "environment": "Code Mode JS isolate; no standalone Node or pytest",
+  "results": [
+    {
+      "id": "26",
+      "group": "reference",
+      "a": "1000o",
+      "b": "PPMM",
+      "endA": [
+        0,
+        4
+      ],
+      "endB": [
+        0,
+        4
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "27",
+      "group": "reference",
+      "a": "MMPP",
+      "b": "1000o",
+      "endA": [
+        0,
+        4
+      ],
+      "endB": [
+        0,
+        4
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "29a",
+      "group": "reference",
+      "a": "MMPP",
+      "b": "PPMM",
+      "endA": [
+        0,
+        4
+      ],
+      "endB": [
+        0,
+        4
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "31a",
+      "group": "reference",
+      "a": "MP",
+      "b": "11o",
+      "endA": [
+        0,
+        2
+      ],
+      "endB": [
+        0,
+        2
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "36a",
+      "group": "reference",
+      "a": "M11oPP",
+      "b": "PPM11o",
+      "endA": [
+        1,
+        5
+      ],
+      "endB": [
+        1,
+        5
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "36a-reflected",
+      "group": "reference",
+      "a": "MM11P",
+      "b": "11PMM",
+      "endA": [
+        -1,
+        5
+      ],
+      "endB": [
+        -1,
+        5
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "36b",
+      "group": "reference",
+      "a": "MMPMPP",
+      "b": "PPPMMM",
+      "endA": [
+        0,
+        6
+      ],
+      "endB": [
+        0,
+        6
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "36c",
+      "group": "reference",
+      "a": "MMP1MPP",
+      "b": "PPP1MMM",
+      "endA": [
+        0,
+        7
+      ],
+      "endB": [
+        0,
+        7
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "37",
+      "group": "reference",
+      "a": "M11o11P",
+      "b": "PPPMMM",
+      "endA": [
+        0,
+        6
+      ],
+      "endB": [
+        0,
+        6
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "39a",
+      "group": "reference",
+      "a": "M11oPMPP",
+      "b": "PPM11oMM",
+      "endA": [
+        1,
+        7
+      ],
+      "endB": [
+        -1,
+        7
+      ],
+      "mismatch": [
+        {
+          "k": "1,4",
+          "expected": 1,
+          "actual": 0
+        },
+        {
+          "k": "1,5",
+          "expected": 1,
+          "actual": 0
+        },
+        {
+          "k": "0,5",
+          "expected": 0,
+          "actual": 1
+        },
+        {
+          "k": "-1,7",
+          "expected": 1,
+          "actual": null
+        }
+      ],
+      "pass": false
+    },
+    {
+      "id": "39b",
+      "group": "reference",
+      "a": "M11oPM11P",
+      "b": "PPPPMMMM",
+      "endA": [
+        0,
+        8
+      ],
+      "endB": [
+        0,
+        8
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "40a",
+      "group": "reference",
+      "a": "M11oPM",
+      "b": "PPMMM",
+      "endA": [
+        -1,
+        5
+      ],
+      "endB": [
+        -1,
+        5
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "40b-1",
+      "group": "reference",
+      "a": "MPP",
+      "b": "M11o",
+      "endA": [
+        1,
+        3
+      ],
+      "endB": [
+        -1,
+        3
+      ],
+      "mismatch": [
+        {
+          "k": "-1,2",
+          "expected": 1,
+          "actual": 0
+        },
+        {
+          "k": "-1,3",
+          "expected": 1,
+          "actual": null
+        }
+      ],
+      "pass": false
+    },
+    {
+      "id": "40b-2",
+      "group": "reference",
+      "a": "M11P",
+      "b": "PPMM",
+      "endA": [
+        0,
+        4
+      ],
+      "endB": [
+        0,
+        4
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "41a",
+      "group": "reference",
+      "a": "M11oP1M",
+      "b": "PPMM1M",
+      "endA": [
+        -1,
+        6
+      ],
+      "endB": [
+        -1,
+        6
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "41b-1",
+      "group": "reference",
+      "a": "1MPP",
+      "b": "111P",
+      "endA": [
+        1,
+        4
+      ],
+      "endB": [
+        1,
+        4
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "41b-2",
+      "group": "reference",
+      "a": "1M11P",
+      "b": "1PPMM",
+      "endA": [
+        0,
+        5
+      ],
+      "endB": [
+        0,
+        5
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "41c-1",
+      "group": "reference",
+      "a": "MM1PP",
+      "b": "11111o",
+      "endA": [
+        0,
+        5
+      ],
+      "endB": [
+        0,
+        5
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "41c-2",
+      "group": "reference",
+      "a": "MM111P",
+      "b": "11P1MM",
+      "endA": [
+        -1,
+        6
+      ],
+      "endB": [
+        -1,
+        6
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "41c-3",
+      "group": "reference",
+      "a": "M11o111P",
+      "b": "PPP1MMM",
+      "endA": [
+        0,
+        7
+      ],
+      "endB": [
+        0,
+        7
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "41d-1",
+      "group": "reference",
+      "a": "MM11111oPP",
+      "b": "11PP1MM11o",
+      "endA": [
+        0,
+        9
+      ],
+      "endB": [
+        0,
+        9
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "41d-2",
+      "group": "reference",
+      "a": "MM11111o11P",
+      "b": "11PPPPP1MMMM",
+      "endA": [
+        -1,
+        10
+      ],
+      "endB": [
+        1,
+        12
+      ],
+      "mismatch": [
+        {
+          "k": "3,6",
+          "expected": 0,
+          "actual": 1
+        },
+        {
+          "k": "4,6",
+          "expected": 1,
+          "actual": 0
+        },
+        {
+          "k": "4,7",
+          "expected": 0,
+          "actual": null
+        },
+        {
+          "k": "5,7",
+          "expected": 1,
+          "actual": null
+        },
+        {
+          "k": "5,8",
+          "expected": 1,
+          "actual": null
+        },
+        {
+          "k": "4,8",
+          "expected": 0,
+          "actual": null
+        },
+        {
+          "k": "4,9",
+          "expected": 1,
+          "actual": null
+        },
+        {
+          "k": "3,9",
+          "expected": 0,
+          "actual": null
+        },
+        {
+          "k": "3,10",
+          "expected": 1,
+          "actual": null
+        },
+        {
+          "k": "2,10",
+          "expected": 0,
+          "actual": null
+        },
+        {
+          "k": "2,11",
+          "expected": 1,
+          "actual": null
+        },
+        {
+          "k": "1,11",
+          "expected": 0,
+          "actual": null
+        },
+        {
+          "k": "1,12",
+          "expected": 1,
+          "actual": null
+        }
+      ],
+      "pass": false
+    },
+    {
+      "id": "41d-3",
+      "group": "reference",
+      "a": "M11o11111o11P",
+      "b": "PPPPP1MMMMM",
+      "endA": [
+        0,
+        11
+      ],
+      "endB": [
+        0,
+        11
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35b-k0",
+      "group": "reference",
+      "a": "M1P",
+      "b": "P1M",
+      "endA": [
+        0,
+        3
+      ],
+      "endB": [
+        0,
+        3
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35a-k1",
+      "group": "reference",
+      "a": "M11P",
+      "b": "PPMM",
+      "endA": [
+        0,
+        4
+      ],
+      "endB": [
+        0,
+        4
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35b-k1",
+      "group": "reference",
+      "a": "M111P",
+      "b": "PP1MM",
+      "endA": [
+        0,
+        5
+      ],
+      "endB": [
+        0,
+        5
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35a-k2",
+      "group": "reference",
+      "a": "M1111P",
+      "b": "PPPMMM",
+      "endA": [
+        0,
+        6
+      ],
+      "endB": [
+        0,
+        6
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35b-k2",
+      "group": "reference",
+      "a": "M11111P",
+      "b": "PPP1MMM",
+      "endA": [
+        0,
+        7
+      ],
+      "endB": [
+        0,
+        7
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35a-k3",
+      "group": "reference",
+      "a": "M111111P",
+      "b": "PPPPMMMM",
+      "endA": [
+        0,
+        8
+      ],
+      "endB": [
+        0,
+        8
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35b-k3",
+      "group": "reference",
+      "a": "M1111111P",
+      "b": "PPPP1MMMM",
+      "endA": [
+        0,
+        9
+      ],
+      "endB": [
+        0,
+        9
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35a-k4",
+      "group": "reference",
+      "a": "M11111111P",
+      "b": "PPPPPMMMMM",
+      "endA": [
+        0,
+        10
+      ],
+      "endB": [
+        0,
+        10
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35b-k4",
+      "group": "reference",
+      "a": "M111111111P",
+      "b": "PPPPP1MMMMM",
+      "endA": [
+        0,
+        11
+      ],
+      "endB": [
+        0,
+        11
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35a-k5",
+      "group": "reference",
+      "a": "M1111111111P",
+      "b": "PPPPPPMMMMMM",
+      "endA": [
+        0,
+        12
+      ],
+      "endB": [
+        0,
+        12
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35b-k5",
+      "group": "reference",
+      "a": "M11111111111P",
+      "b": "PPPPPP1MMMMMM",
+      "endA": [
+        0,
+        13
+      ],
+      "endB": [
+        0,
+        13
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35a-k6",
+      "group": "reference",
+      "a": "M111111111111P",
+      "b": "PPPPPPPMMMMMMM",
+      "endA": [
+        0,
+        14
+      ],
+      "endB": [
+        0,
+        14
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35b-k6",
+      "group": "reference",
+      "a": "M1111111111111P",
+      "b": "PPPPPPP1MMMMMMM",
+      "endA": [
+        0,
+        15
+      ],
+      "endB": [
+        0,
+        15
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35a-k7",
+      "group": "reference",
+      "a": "M11111111111111P",
+      "b": "PPPPPPPPMMMMMMMM",
+      "endA": [
+        0,
+        16
+      ],
+      "endB": [
+        0,
+        16
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35b-k7",
+      "group": "reference",
+      "a": "M111111111111111P",
+      "b": "PPPPPPPP1MMMMMMMM",
+      "endA": [
+        0,
+        17
+      ],
+      "endB": [
+        0,
+        17
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35a-k8",
+      "group": "reference",
+      "a": "M1111111111111111P",
+      "b": "PPPPPPPPPMMMMMMMMM",
+      "endA": [
+        0,
+        18
+      ],
+      "endB": [
+        0,
+        18
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "35b-k8",
+      "group": "reference",
+      "a": "M11111111111111111P",
+      "b": "PPPPPPPPP1MMMMMMMMM",
+      "endA": [
+        0,
+        19
+      ],
+      "endB": [
+        0,
+        19
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "39a-alt",
+      "group": "candidate-correction",
+      "a": "M11oPMPP",
+      "b": "PP11PMM",
+      "endA": [
+        1,
+        7
+      ],
+      "endB": [
+        1,
+        7
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "40b-1-alt",
+      "group": "candidate-correction",
+      "a": "MPP",
+      "b": "11P",
+      "endA": [
+        1,
+        3
+      ],
+      "endB": [
+        1,
+        3
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "41d-2-alt",
+      "group": "candidate-correction",
+      "a": "MM11111o11P",
+      "b": "11PPP1MMMM",
+      "endA": [
+        -1,
+        10
+      ],
+      "endB": [
+        -1,
+        10
+      ],
+      "mismatch": [],
+      "pass": true
+    },
+    {
+      "id": "41b-1-initial-transcription",
+      "group": "transcription-error",
+      "a": "1MPP",
+      "b": "1M11o",
+      "endA": [
+        1,
+        4
+      ],
+      "endB": [
+        -1,
+        4
+      ],
+      "mismatch": [
+        {
+          "k": "-1,3",
+          "expected": 1,
+          "actual": 0
+        },
+        {
+          "k": "-1,4",
+          "expected": 1,
+          "actual": null
+        }
+      ],
+      "pass": false
+    },
+    {
+      "id": "negative-control",
+      "group": "negative-control",
+      "a": "1000o",
+      "b": "0000o",
+      "endA": [
+        0,
+        4
+      ],
+      "endB": [
+        0,
+        4
+      ],
+      "mismatch": [
+        {
+          "k": "0,0",
+          "expected": 0,
+          "actual": 1
+        }
+      ],
+      "pass": false
+    }
+  ]
+}
