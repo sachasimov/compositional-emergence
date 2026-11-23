@@ -52,3 +52,6 @@ One additional bounded cycle is authorized for detector methodology and CE-001
 Stage B localized-candidate validation (`docs/cycles/cycle-002.md`). Its new
 contributions require independent review and fresh merge approval. Stage C and
 later research cycles remain gated.
+
+## Extension — individuation and predictive compression (2026-11-23)
+Ask how dynamics generate identifiable units, whether their compressed descriptions preserve predictions of specified future observables, and whether this enables recursive composition. Separate observer-selected targets from dynamical evidence of coherent boundaries; persistence, predictability and physical autonomy are distinct. See theory/individuation.md and docs/cycles/cycle-003.md. Cycle 002 artifacts and audit are present on main; the audit reports 13/16 matched truth objects, zero unmatched predictions, and 42 passing tests on engineered fixtures. General detection and Stage C remain unvalidated.
