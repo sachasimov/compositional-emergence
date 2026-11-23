@@ -32,3 +32,6 @@ critical review. Its scope is Stage B localized-candidate method validation,
 not Stage C discovery or H1–H3 confirmation. New PRs and a third cycle require
 fresh approval. See `cycles/cycle-002.md`. Preserve cycle-001 protocols, outputs,
 and audit as historical records.
+
+## D-007 — Bounded continuation: individuation and predictive compression
+On 2026-11-23 the user asked to add the identity/compression extension and continue where the research stopped. Interpret this as authorization for a bounded Cycle 003 preparation and Stage B method-development continuation, not automatic merge or Stage C discovery. Preserve Cycle 002 evidence and existing H1–H3. Review before confirmatory execution; no claim of observer-independent ontology, novelty or hierarchy from a geometric detector.
