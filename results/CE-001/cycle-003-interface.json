@@ -1,0 +1,6726 @@
+{
+  "source_commit": "3a2f695fa821c5ff2b7674a63bc0053603b3e226",
+  "execution": "Committed run function executed in JS isolate; Node and pytest not separately run",
+  "rows": [
+    {
+      "d": 3,
+      "t": 1,
+      "rotated": false,
+      "chosen": [
+        0,
+        1
+      ],
+      "HY": 2,
+      "HP": 1.5,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 2,
+          "HPgivenCode": 1.5,
+          "total": 2
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 1,
+          "HPgivenCode": 0.5,
+          "total": 2
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 1,
+          "HPgivenCode": 1,
+          "total": 2
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|001110001|000111000|000111000",
+          "P": 13,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "001110001|000111000|000111000|000111000",
+          "P": 13,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111111|000111111|000111000|000111000",
+          "P": 18,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|001110001|000111000|000111000",
+          "P": 13,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "001110001|000111000|000111000|000111000",
+          "P": 13,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111111|000111111|000111000|000111000",
+          "P": 18,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|001110001|000111000|000111000",
+          "P": 13,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "001110001|000111000|000111000|000111000",
+          "P": 13,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111111|000111111|000111000|000111000",
+          "P": 18,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|001110001|000111000|000111000",
+          "P": 13,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "001110001|000111000|000111000|000111000",
+          "P": 13,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111111|000111111|000111000|000111000",
+          "P": 18,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": "11"
+          }
+        }
+      ]
+    },
+    {
+      "d": 3,
+      "t": 1,
+      "rotated": true,
+      "chosen": [
+        0,
+        1
+      ],
+      "HY": 2,
+      "HP": 1.5,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 2,
+          "HPgivenCode": 1.5,
+          "total": 2
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 1,
+          "HPgivenCode": 0.5,
+          "total": 2
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 1,
+          "HPgivenCode": 1,
+          "total": 2
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|001110001|000111000|000111000",
+          "P": 13,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "001110001|000111000|000111000|000111000",
+          "P": 13,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111111|000111111|000111000|000111000",
+          "P": 18,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|001110001|000111000|000111000",
+          "P": 13,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "001110001|000111000|000111000|000111000",
+          "P": 13,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111111|000111111|000111000|000111000",
+          "P": 18,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|001110001|000111000|000111000",
+          "P": 13,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "001110001|000111000|000111000|000111000",
+          "P": 13,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111111|000111111|000111000|000111000",
+          "P": 18,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|001110001|000111000|000111000",
+          "P": 13,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "001110001|000111000|000111000|000111000",
+          "P": 13,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111111|000111111|000111000|000111000",
+          "P": 18,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": "11"
+          }
+        }
+      ]
+    },
+    {
+      "d": 3,
+      "t": 2,
+      "rotated": false,
+      "chosen": [
+        0,
+        1
+      ],
+      "HY": 2,
+      "HP": 1.5,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 2,
+          "HPgivenCode": 1.5,
+          "total": 2
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 1,
+          "HPgivenCode": 0.5,
+          "total": 2
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 1,
+          "HPgivenCode": 1,
+          "total": 2
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111111|000111111|000111000|000111000",
+          "P": 18,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "001110001|000111010|000111000|000111000",
+          "P": 14,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111010|001110001|000111000|000111000",
+          "P": 14,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000101010|000101010|000111000|000111000",
+          "P": 16,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111111|000111111|000111000|000111000",
+          "P": 18,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "001110001|000111010|000111000|000111000",
+          "P": 14,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111010|001110001|000111000|000111000",
+          "P": 14,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000101010|000101010|000111000|000111000",
+          "P": 16,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111111|000111111|000111000|000111000",
+          "P": 18,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "001110001|000111010|000111000|000111000",
+          "P": 14,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111010|001110001|000111000|000111000",
+          "P": 14,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000101010|000101010|000111000|000111000",
+          "P": 16,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111111|000111111|000111000|000111000",
+          "P": 18,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "001110001|000111010|000111000|000111000",
+          "P": 14,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111010|001110001|000111000|000111000",
+          "P": 14,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000101010|000101010|000111000|000111000",
+          "P": 16,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": "11"
+          }
+        }
+      ]
+    },
+    {
+      "d": 3,
+      "t": 2,
+      "rotated": true,
+      "chosen": [
+        0,
+        1
+      ],
+      "HY": 2,
+      "HP": 1.5,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 2,
+          "HPgivenCode": 1.5,
+          "total": 2
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 1,
+          "HPgivenCode": 0.5,
+          "total": 2
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 1,
+          "HPgivenCode": 1,
+          "total": 2
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111111|000111111|000111000|000111000",
+          "P": 18,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "001110001|000111010|000111000|000111000",
+          "P": 14,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111010|001110001|000111000|000111000",
+          "P": 14,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000101010|000101010|000111000|000111000",
+          "P": 16,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111111|000111111|000111000|000111000",
+          "P": 18,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "001110001|000111010|000111000|000111000",
+          "P": 14,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111010|001110001|000111000|000111000",
+          "P": 14,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000101010|000101010|000111000|000111000",
+          "P": 16,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111111|000111111|000111000|000111000",
+          "P": 18,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "001110001|000111010|000111000|000111000",
+          "P": 14,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111010|001110001|000111000|000111000",
+          "P": 14,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000101010|000101010|000111000|000111000",
+          "P": 16,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111111|000111111|000111000|000111000",
+          "P": 18,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "001110001|000111010|000111000|000111000",
+          "P": 14,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111010|001110001|000111000|000111000",
+          "P": 14,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000101010|000101010|000111000|000111000",
+          "P": 16,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": "11"
+          }
+        }
+      ]
+    },
+    {
+      "d": 3,
+      "t": 4,
+      "rotated": false,
+      "chosen": [
+        0,
+        1
+      ],
+      "HY": 2,
+      "HP": 1.5,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 2,
+          "HPgivenCode": 1.5,
+          "total": 2
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 1,
+          "HPgivenCode": 0.5,
+          "total": 2
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 1,
+          "HPgivenCode": 1,
+          "total": 2
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "010111101|010111101|000111000|000111000",
+          "P": 22,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "010101101|101111111|000111000|000111000",
+          "P": 19,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "101111111|010101101|000111000|000111000",
+          "P": 19,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000000111|000000111|000111000|000111000",
+          "P": 16,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "010111101|010111101|000111000|000111000",
+          "P": 22,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "010101101|101111111|000111000|000111000",
+          "P": 19,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "101111111|010101101|000111000|000111000",
+          "P": 19,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000000111|000000111|000111000|000111000",
+          "P": 16,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "010111101|010111101|000111000|000111000",
+          "P": 22,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "010101101|101111111|000111000|000111000",
+          "P": 19,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "101111111|010101101|000111000|000111000",
+          "P": 19,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000000111|000000111|000111000|000111000",
+          "P": 16,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "010111101|010111101|000111000|000111000",
+          "P": 22,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "010101101|101111111|000111000|000111000",
+          "P": 19,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "101111111|010101101|000111000|000111000",
+          "P": 19,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000000111|000000111|000111000|000111000",
+          "P": 16,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": "11"
+          }
+        }
+      ]
+    },
+    {
+      "d": 3,
+      "t": 4,
+      "rotated": true,
+      "chosen": [
+        0,
+        1
+      ],
+      "HY": 2,
+      "HP": 1.5,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 2,
+          "HPgivenCode": 1.5,
+          "total": 2
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 1,
+          "HPgivenCode": 0.5,
+          "total": 2
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 1,
+          "HPgivenCode": 1,
+          "total": 2
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "010111101|010111101|000111000|000111000",
+          "P": 22,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "010101101|101111111|000111000|000111000",
+          "P": 19,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "101111111|010101101|000111000|000111000",
+          "P": 19,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000000111|000000111|000111000|000111000",
+          "P": 16,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "010111101|010111101|000111000|000111000",
+          "P": 22,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "010101101|101111111|000111000|000111000",
+          "P": 19,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "101111111|010101101|000111000|000111000",
+          "P": 19,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000000111|000000111|000111000|000111000",
+          "P": 16,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "010111101|010111101|000111000|000111000",
+          "P": 22,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "010101101|101111111|000111000|000111000",
+          "P": 19,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "101111111|010101101|000111000|000111000",
+          "P": 19,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000000111|000000111|000111000|000111000",
+          "P": 16,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": "11"
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "010111101|010111101|000111000|000111000",
+          "P": 22,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": "00"
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "010101101|101111111|000111000|000111000",
+          "P": 19,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": "10"
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "101111111|010101101|000111000|000111000",
+          "P": 19,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": "01"
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000000111|000000111|000111000|000111000",
+          "P": 16,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": "11"
+          }
+        }
+      ]
+    },
+    {
+      "d": 4,
+      "t": 1,
+      "rotated": false,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 4,
+      "t": 1,
+      "rotated": true,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 4,
+      "t": 2,
+      "rotated": false,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 4,
+      "t": 2,
+      "rotated": true,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 4,
+      "t": 4,
+      "rotated": false,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 4,
+      "t": 4,
+      "rotated": true,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 5,
+      "t": 1,
+      "rotated": false,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 5,
+      "t": 1,
+      "rotated": true,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 5,
+      "t": 2,
+      "rotated": false,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 5,
+      "t": 2,
+      "rotated": true,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 5,
+      "t": 4,
+      "rotated": false,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 5,
+      "t": 4,
+      "rotated": true,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 6,
+      "t": 1,
+      "rotated": false,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 6,
+      "t": 1,
+      "rotated": true,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 6,
+      "t": 2,
+      "rotated": false,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 6,
+      "t": 2,
+      "rotated": true,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 6,
+      "t": 4,
+      "rotated": false,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    },
+    {
+      "d": 6,
+      "t": 4,
+      "rotated": true,
+      "chosen": [],
+      "HY": 0,
+      "HP": 0,
+      "metrics": [
+        {
+          "name": "empty",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        },
+        {
+          "name": "xor",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "first",
+          "Hcode": 1,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 1
+        },
+        {
+          "name": "pair",
+          "Hcode": 2,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 2
+        },
+        {
+          "name": "full",
+          "Hcode": 4,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 4
+        },
+        {
+          "name": "interface",
+          "Hcode": 0,
+          "HYgivenCode": 0,
+          "HPgivenCode": 0,
+          "total": 0
+        }
+      ],
+      "cases": [
+        {
+          "p": "0000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1000",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1000",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1100",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1100",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1010",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1010",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1110",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1110",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1001",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1001",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1101",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1101",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "0",
+            "pair": "00",
+            "full": "0011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1011",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "1",
+            "pair": "10",
+            "full": "1011",
+            "interface": ""
+          }
+        },
+        {
+          "p": "0111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "1",
+            "first": "0",
+            "pair": "01",
+            "full": "0111",
+            "interface": ""
+          }
+        },
+        {
+          "p": "1111",
+          "Y": "000111000|000111000|000111000|000111000",
+          "P": 12,
+          "independent": true,
+          "codes": {
+            "empty": "",
+            "xor": "0",
+            "first": "1",
+            "pair": "11",
+            "full": "1111",
+            "interface": ""
+          }
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "panel count",
+      "pass": true
+    },
+    {
+      "name": "distant pair independent",
+      "pass": true
+    },
+    {
+      "name": "isolated invariance",
+      "pass": true
+    },
+    {
+      "name": "near pair sufficient XOR insufficient",
+      "pass": true
+    },
+    {
+      "name": "interface code exact",
+      "pass": true
+    },
+    {
+      "name": "full phase sufficient",
+      "pass": true
+    },
+    {
+      "name": "rotation agreement",
+      "pass": true
+    }
+  ]
+}
