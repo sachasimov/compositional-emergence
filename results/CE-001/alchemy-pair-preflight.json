@@ -1,0 +1,258 @@
+{
+  "source_commit": "0a54c9bec5ef11ca82bb69de23b1b609b4ba4107",
+  "execution": "JS isolate; source-derived translation, not upstream Python execution",
+  "upstream": {
+    "pairs": [
+      {
+        "pair": [
+          "B",
+          "A"
+        ],
+        "composition": {
+          "a": 10,
+          "b": 10
+        },
+        "total": 20,
+        "seeds": [
+          808,
+          809,
+          811,
+          814,
+          818
+        ],
+        "valid": true
+      },
+      {
+        "pair": [
+          "C",
+          "A"
+        ],
+        "composition": {
+          "a": 10,
+          "b": 10,
+          "c": 10
+        },
+        "total": 30,
+        "seeds": [
+          818,
+          819,
+          821,
+          824,
+          828
+        ],
+        "valid": false
+      },
+      {
+        "pair": [
+          "C",
+          "B"
+        ],
+        "composition": {
+          "b": 10,
+          "c": 10
+        },
+        "total": 20,
+        "seeds": [
+          828,
+          829,
+          831,
+          834,
+          838
+        ],
+        "valid": true
+      },
+      {
+        "pair": [
+          "D",
+          "A"
+        ],
+        "composition": {
+          "a": 10,
+          "b": 10,
+          "c": 10,
+          "d": 10
+        },
+        "total": 40,
+        "seeds": [
+          838,
+          839,
+          841,
+          844,
+          848
+        ],
+        "valid": false
+      },
+      {
+        "pair": [
+          "D",
+          "B"
+        ],
+        "composition": {
+          "b": 10,
+          "c": 10,
+          "d": 10
+        },
+        "total": 30,
+        "seeds": [
+          848,
+          849,
+          851,
+          854,
+          858
+        ],
+        "valid": false
+      },
+      {
+        "pair": [
+          "D",
+          "C"
+        ],
+        "composition": {
+          "c": 10,
+          "d": 10
+        },
+        "total": 20,
+        "seeds": [
+          858,
+          859,
+          861,
+          864,
+          868
+        ],
+        "valid": true
+      }
+    ],
+    "unchanged": false,
+    "uniqueSeeds": 25,
+    "validPairs": 3
+  },
+  "corrected": {
+    "pairs": [
+      {
+        "pair": [
+          "B",
+          "A"
+        ],
+        "composition": {
+          "a": 10,
+          "b": 10
+        },
+        "total": 20,
+        "seeds": [
+          808,
+          809,
+          810,
+          811,
+          812
+        ],
+        "valid": true
+      },
+      {
+        "pair": [
+          "C",
+          "A"
+        ],
+        "composition": {
+          "a": 10,
+          "c": 10
+        },
+        "total": 20,
+        "seeds": [
+          813,
+          814,
+          815,
+          816,
+          817
+        ],
+        "valid": true
+      },
+      {
+        "pair": [
+          "C",
+          "B"
+        ],
+        "composition": {
+          "b": 10,
+          "c": 10
+        },
+        "total": 20,
+        "seeds": [
+          818,
+          819,
+          820,
+          821,
+          822
+        ],
+        "valid": true
+      },
+      {
+        "pair": [
+          "D",
+          "A"
+        ],
+        "composition": {
+          "a": 10,
+          "d": 10
+        },
+        "total": 20,
+        "seeds": [
+          823,
+          824,
+          825,
+          826,
+          827
+        ],
+        "valid": true
+      },
+      {
+        "pair": [
+          "D",
+          "B"
+        ],
+        "composition": {
+          "b": 10,
+          "d": 10
+        },
+        "total": 20,
+        "seeds": [
+          828,
+          829,
+          830,
+          831,
+          832
+        ],
+        "valid": true
+      },
+      {
+        "pair": [
+          "D",
+          "C"
+        ],
+        "composition": {
+          "c": 10,
+          "d": 10
+        },
+        "total": 20,
+        "seeds": [
+          833,
+          834,
+          835,
+          836,
+          837
+        ],
+        "valid": true
+      }
+    ],
+    "unchanged": true,
+    "uniqueSeeds": 30,
+    "validPairs": 6
+  },
+  "overlap": {
+    "mix": {
+      "x": 7,
+      "z": 1,
+      "y": 2
+    },
+    "pass": true
+  }
+}
