@@ -1,0 +1,969 @@
+{
+  "source_commit": "6e99eb5de3a94dcce7e8aa2780d32a14d7bbb49a",
+  "execution": "JS isolate, same function as committed source; standalone Node and pytest not run",
+  "rows": [
+    {
+      "d": 3,
+      "t": 1,
+      "region": "a",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 1,
+      "HYgivenX": 1
+    },
+    {
+      "d": 3,
+      "t": 1,
+      "region": "b",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 1,
+      "HYgivenX": 1
+    },
+    {
+      "d": 3,
+      "t": 1,
+      "region": "union",
+      "HX": 2,
+      "HZ": 0,
+      "HQ": 2,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 3,
+      "t": 2,
+      "region": "a",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 1,
+      "HYgivenX": 1
+    },
+    {
+      "d": 3,
+      "t": 2,
+      "region": "b",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 1,
+      "HYgivenX": 1
+    },
+    {
+      "d": 3,
+      "t": 2,
+      "region": "union",
+      "HX": 2,
+      "HZ": 0,
+      "HQ": 2,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 3,
+      "t": 4,
+      "region": "a",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 1,
+      "HYgivenX": 1
+    },
+    {
+      "d": 3,
+      "t": 4,
+      "region": "b",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 1,
+      "HYgivenX": 1
+    },
+    {
+      "d": 3,
+      "t": 4,
+      "region": "union",
+      "HX": 2,
+      "HZ": 0,
+      "HQ": 2,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 4,
+      "t": 1,
+      "region": "a",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 4,
+      "t": 1,
+      "region": "b",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 4,
+      "t": 1,
+      "region": "union",
+      "HX": 2,
+      "HZ": 0,
+      "HQ": 2,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 4,
+      "t": 2,
+      "region": "a",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 4,
+      "t": 2,
+      "region": "b",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 4,
+      "t": 2,
+      "region": "union",
+      "HX": 2,
+      "HZ": 0,
+      "HQ": 2,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 4,
+      "t": 4,
+      "region": "a",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 4,
+      "t": 4,
+      "region": "b",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 4,
+      "t": 4,
+      "region": "union",
+      "HX": 2,
+      "HZ": 0,
+      "HQ": 2,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 5,
+      "t": 1,
+      "region": "a",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 5,
+      "t": 1,
+      "region": "b",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 5,
+      "t": 1,
+      "region": "union",
+      "HX": 2,
+      "HZ": 0,
+      "HQ": 2,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 5,
+      "t": 2,
+      "region": "a",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 5,
+      "t": 2,
+      "region": "b",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 5,
+      "t": 2,
+      "region": "union",
+      "HX": 2,
+      "HZ": 0,
+      "HQ": 2,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 5,
+      "t": 4,
+      "region": "a",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 5,
+      "t": 4,
+      "region": "b",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 5,
+      "t": 4,
+      "region": "union",
+      "HX": 2,
+      "HZ": 0,
+      "HQ": 2,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 6,
+      "t": 1,
+      "region": "a",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 6,
+      "t": 1,
+      "region": "b",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 6,
+      "t": 1,
+      "region": "union",
+      "HX": 2,
+      "HZ": 0,
+      "HQ": 2,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 6,
+      "t": 2,
+      "region": "a",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 6,
+      "t": 2,
+      "region": "b",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 6,
+      "t": 2,
+      "region": "union",
+      "HX": 2,
+      "HZ": 0,
+      "HQ": 2,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 6,
+      "t": 4,
+      "region": "a",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 6,
+      "t": 4,
+      "region": "b",
+      "HX": 1,
+      "HZ": 0,
+      "HQ": 1,
+      "HY": 1,
+      "HYgivenZ": 1,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    },
+    {
+      "d": 6,
+      "t": 4,
+      "region": "union",
+      "HX": 2,
+      "HZ": 0,
+      "HQ": 2,
+      "HY": 2,
+      "HYgivenZ": 2,
+      "HYgivenQ": 0,
+      "HYgivenX": 0
+    }
+  ],
+  "coupling": [
+    {
+      "d": 3,
+      "t": 1,
+      "MI": 2,
+      "different": 3,
+      "cases": [
+        {
+          "p": 0,
+          "q": 0,
+          "xa": "000111000",
+          "xb": "000111000",
+          "ya": "010010010",
+          "yb": "010010010",
+          "different": false
+        },
+        {
+          "p": 0,
+          "q": 1,
+          "xa": "000111000",
+          "xb": "010010010",
+          "ya": "010010101",
+          "yb": "000111000",
+          "different": true
+        },
+        {
+          "p": 1,
+          "q": 0,
+          "xa": "010010010",
+          "xb": "000111000",
+          "ya": "000111000",
+          "yb": "101010010",
+          "different": true
+        },
+        {
+          "p": 1,
+          "q": 1,
+          "xa": "010010010",
+          "xb": "010010010",
+          "ya": "000111111",
+          "yb": "111111000",
+          "different": true
+        }
+      ]
+    },
+    {
+      "d": 3,
+      "t": 2,
+      "MI": 2,
+      "different": 4,
+      "cases": [
+        {
+          "p": 0,
+          "q": 0,
+          "xa": "000111000",
+          "xb": "000111000",
+          "ya": "000111111",
+          "yb": "111111000",
+          "different": true
+        },
+        {
+          "p": 0,
+          "q": 1,
+          "xa": "000111000",
+          "xb": "010010010",
+          "ya": "000111010",
+          "yb": "101010010",
+          "different": true
+        },
+        {
+          "p": 1,
+          "q": 0,
+          "xa": "010010010",
+          "xb": "000111000",
+          "ya": "010010101",
+          "yb": "010111000",
+          "different": true
+        },
+        {
+          "p": 1,
+          "q": 1,
+          "xa": "010010010",
+          "xb": "010010010",
+          "ya": "010101000",
+          "yb": "000101010",
+          "different": true
+        }
+      ]
+    },
+    {
+      "d": 3,
+      "t": 4,
+      "MI": 2,
+      "different": 4,
+      "cases": [
+        {
+          "p": 0,
+          "q": 0,
+          "xa": "000111000",
+          "xb": "000111000",
+          "ya": "010111101",
+          "yb": "101111010",
+          "different": true
+        },
+        {
+          "p": 0,
+          "q": 1,
+          "xa": "000111000",
+          "xb": "010010010",
+          "ya": "111111101",
+          "yb": "101101010",
+          "different": true
+        },
+        {
+          "p": 1,
+          "q": 0,
+          "xa": "010010010",
+          "xb": "000111000",
+          "ya": "010101101",
+          "yb": "101111111",
+          "different": true
+        },
+        {
+          "p": 1,
+          "q": 1,
+          "xa": "010010010",
+          "xb": "010010010",
+          "ya": "111000000",
+          "yb": "000000111",
+          "different": true
+        }
+      ]
+    },
+    {
+      "d": 4,
+      "t": 1,
+      "MI": 0,
+      "different": 0,
+      "cases": [
+        {
+          "p": 0,
+          "q": 0,
+          "xa": "000111000",
+          "xb": "000111000",
+          "ya": "010010010",
+          "yb": "010010010",
+          "different": false
+        },
+        {
+          "p": 0,
+          "q": 1,
+          "xa": "000111000",
+          "xb": "010010010",
+          "ya": "010010010",
+          "yb": "000111000",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 0,
+          "xa": "010010010",
+          "xb": "000111000",
+          "ya": "000111000",
+          "yb": "010010010",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 1,
+          "xa": "010010010",
+          "xb": "010010010",
+          "ya": "000111000",
+          "yb": "000111000",
+          "different": false
+        }
+      ]
+    },
+    {
+      "d": 4,
+      "t": 2,
+      "MI": 0,
+      "different": 0,
+      "cases": [
+        {
+          "p": 0,
+          "q": 0,
+          "xa": "000111000",
+          "xb": "000111000",
+          "ya": "000111000",
+          "yb": "000111000",
+          "different": false
+        },
+        {
+          "p": 0,
+          "q": 1,
+          "xa": "000111000",
+          "xb": "010010010",
+          "ya": "000111000",
+          "yb": "010010010",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 0,
+          "xa": "010010010",
+          "xb": "000111000",
+          "ya": "010010010",
+          "yb": "000111000",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 1,
+          "xa": "010010010",
+          "xb": "010010010",
+          "ya": "010010010",
+          "yb": "010010010",
+          "different": false
+        }
+      ]
+    },
+    {
+      "d": 4,
+      "t": 4,
+      "MI": 0,
+      "different": 0,
+      "cases": [
+        {
+          "p": 0,
+          "q": 0,
+          "xa": "000111000",
+          "xb": "000111000",
+          "ya": "000111000",
+          "yb": "000111000",
+          "different": false
+        },
+        {
+          "p": 0,
+          "q": 1,
+          "xa": "000111000",
+          "xb": "010010010",
+          "ya": "000111000",
+          "yb": "010010010",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 0,
+          "xa": "010010010",
+          "xb": "000111000",
+          "ya": "010010010",
+          "yb": "000111000",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 1,
+          "xa": "010010010",
+          "xb": "010010010",
+          "ya": "010010010",
+          "yb": "010010010",
+          "different": false
+        }
+      ]
+    },
+    {
+      "d": 5,
+      "t": 1,
+      "MI": 0,
+      "different": 0,
+      "cases": [
+        {
+          "p": 0,
+          "q": 0,
+          "xa": "000111000",
+          "xb": "000111000",
+          "ya": "010010010",
+          "yb": "010010010",
+          "different": false
+        },
+        {
+          "p": 0,
+          "q": 1,
+          "xa": "000111000",
+          "xb": "010010010",
+          "ya": "010010010",
+          "yb": "000111000",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 0,
+          "xa": "010010010",
+          "xb": "000111000",
+          "ya": "000111000",
+          "yb": "010010010",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 1,
+          "xa": "010010010",
+          "xb": "010010010",
+          "ya": "000111000",
+          "yb": "000111000",
+          "different": false
+        }
+      ]
+    },
+    {
+      "d": 5,
+      "t": 2,
+      "MI": 0,
+      "different": 0,
+      "cases": [
+        {
+          "p": 0,
+          "q": 0,
+          "xa": "000111000",
+          "xb": "000111000",
+          "ya": "000111000",
+          "yb": "000111000",
+          "different": false
+        },
+        {
+          "p": 0,
+          "q": 1,
+          "xa": "000111000",
+          "xb": "010010010",
+          "ya": "000111000",
+          "yb": "010010010",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 0,
+          "xa": "010010010",
+          "xb": "000111000",
+          "ya": "010010010",
+          "yb": "000111000",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 1,
+          "xa": "010010010",
+          "xb": "010010010",
+          "ya": "010010010",
+          "yb": "010010010",
+          "different": false
+        }
+      ]
+    },
+    {
+      "d": 5,
+      "t": 4,
+      "MI": 0,
+      "different": 0,
+      "cases": [
+        {
+          "p": 0,
+          "q": 0,
+          "xa": "000111000",
+          "xb": "000111000",
+          "ya": "000111000",
+          "yb": "000111000",
+          "different": false
+        },
+        {
+          "p": 0,
+          "q": 1,
+          "xa": "000111000",
+          "xb": "010010010",
+          "ya": "000111000",
+          "yb": "010010010",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 0,
+          "xa": "010010010",
+          "xb": "000111000",
+          "ya": "010010010",
+          "yb": "000111000",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 1,
+          "xa": "010010010",
+          "xb": "010010010",
+          "ya": "010010010",
+          "yb": "010010010",
+          "different": false
+        }
+      ]
+    },
+    {
+      "d": 6,
+      "t": 1,
+      "MI": 0,
+      "different": 0,
+      "cases": [
+        {
+          "p": 0,
+          "q": 0,
+          "xa": "000111000",
+          "xb": "000111000",
+          "ya": "010010010",
+          "yb": "010010010",
+          "different": false
+        },
+        {
+          "p": 0,
+          "q": 1,
+          "xa": "000111000",
+          "xb": "010010010",
+          "ya": "010010010",
+          "yb": "000111000",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 0,
+          "xa": "010010010",
+          "xb": "000111000",
+          "ya": "000111000",
+          "yb": "010010010",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 1,
+          "xa": "010010010",
+          "xb": "010010010",
+          "ya": "000111000",
+          "yb": "000111000",
+          "different": false
+        }
+      ]
+    },
+    {
+      "d": 6,
+      "t": 2,
+      "MI": 0,
+      "different": 0,
+      "cases": [
+        {
+          "p": 0,
+          "q": 0,
+          "xa": "000111000",
+          "xb": "000111000",
+          "ya": "000111000",
+          "yb": "000111000",
+          "different": false
+        },
+        {
+          "p": 0,
+          "q": 1,
+          "xa": "000111000",
+          "xb": "010010010",
+          "ya": "000111000",
+          "yb": "010010010",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 0,
+          "xa": "010010010",
+          "xb": "000111000",
+          "ya": "010010010",
+          "yb": "000111000",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 1,
+          "xa": "010010010",
+          "xb": "010010010",
+          "ya": "010010010",
+          "yb": "010010010",
+          "different": false
+        }
+      ]
+    },
+    {
+      "d": 6,
+      "t": 4,
+      "MI": 0,
+      "different": 0,
+      "cases": [
+        {
+          "p": 0,
+          "q": 0,
+          "xa": "000111000",
+          "xb": "000111000",
+          "ya": "000111000",
+          "yb": "000111000",
+          "different": false
+        },
+        {
+          "p": 0,
+          "q": 1,
+          "xa": "000111000",
+          "xb": "010010010",
+          "ya": "000111000",
+          "yb": "010010010",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 0,
+          "xa": "010010010",
+          "xb": "000111000",
+          "ya": "010010010",
+          "yb": "000111000",
+          "different": false
+        },
+        {
+          "p": 1,
+          "q": 1,
+          "xa": "010010010",
+          "xb": "010010010",
+          "ya": "010010010",
+          "yb": "010010010",
+          "different": false
+        }
+      ]
+    }
+  ],
+  "assertions": "passed"
+}
