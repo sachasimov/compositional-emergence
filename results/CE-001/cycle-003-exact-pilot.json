@@ -1,0 +1,143 @@
+{
+  "execution": "Executed pilot() in JavaScript isolate; standalone Node entrypoint provided but not run separately",
+  "source_commit": "6feb545f9076628aa4af7d09dae1bdbe6da52ee7",
+  "rows": [
+    {
+      "ensemble": "independent",
+      "start": 0,
+      "HX": 4,
+      "HZ": 1,
+      "HY": 4,
+      "HYgivenZ": 3,
+      "HY2givenZ": 0
+    },
+    {
+      "ensemble": "independent",
+      "start": 1,
+      "HX": 4,
+      "HZ": 1,
+      "HY": 4,
+      "HYgivenZ": 3,
+      "HY2givenZ": 0
+    },
+    {
+      "ensemble": "independent",
+      "start": 2,
+      "HX": 4,
+      "HZ": 1,
+      "HY": 4,
+      "HYgivenZ": 3,
+      "HY2givenZ": 0
+    },
+    {
+      "ensemble": "independent",
+      "start": 3,
+      "HX": 4,
+      "HZ": 1,
+      "HY": 4,
+      "HYgivenZ": 3,
+      "HY2givenZ": 0
+    },
+    {
+      "ensemble": "independent",
+      "start": 4,
+      "HX": 4,
+      "HZ": 1,
+      "HY": 4,
+      "HYgivenZ": 3,
+      "HY2givenZ": 0
+    },
+    {
+      "ensemble": "two_blocks",
+      "start": 0,
+      "HX": 1,
+      "HZ": 1,
+      "HY": 1,
+      "HYgivenZ": 0,
+      "HY2givenZ": 0
+    },
+    {
+      "ensemble": "two_blocks",
+      "start": 1,
+      "HX": 2,
+      "HZ": 1,
+      "HY": 2,
+      "HYgivenZ": 1,
+      "HY2givenZ": 0
+    },
+    {
+      "ensemble": "two_blocks",
+      "start": 2,
+      "HX": 2,
+      "HZ": 1,
+      "HY": 2,
+      "HYgivenZ": 1,
+      "HY2givenZ": 0
+    },
+    {
+      "ensemble": "two_blocks",
+      "start": 3,
+      "HX": 2,
+      "HZ": 1,
+      "HY": 2,
+      "HYgivenZ": 1,
+      "HY2givenZ": 0
+    },
+    {
+      "ensemble": "two_blocks",
+      "start": 4,
+      "HX": 1,
+      "HZ": 1,
+      "HY": 1,
+      "HYgivenZ": 0,
+      "HY2givenZ": 0
+    },
+    {
+      "ensemble": "global",
+      "start": 0,
+      "HX": 1,
+      "HZ": 1,
+      "HY": 1,
+      "HYgivenZ": 0,
+      "HY2givenZ": 0
+    },
+    {
+      "ensemble": "global",
+      "start": 1,
+      "HX": 1,
+      "HZ": 1,
+      "HY": 1,
+      "HYgivenZ": 0,
+      "HY2givenZ": 0
+    },
+    {
+      "ensemble": "global",
+      "start": 2,
+      "HX": 1,
+      "HZ": 1,
+      "HY": 1,
+      "HYgivenZ": 0,
+      "HY2givenZ": 0
+    },
+    {
+      "ensemble": "global",
+      "start": 3,
+      "HX": 1,
+      "HZ": 1,
+      "HY": 1,
+      "HYgivenZ": 0,
+      "HY2givenZ": 0
+    },
+    {
+      "ensemble": "global",
+      "start": 4,
+      "HX": 1,
+      "HZ": 1,
+      "HY": 1,
+      "HYgivenZ": 0,
+      "HY2givenZ": 0
+    }
+  ],
+  "assertions": "passed",
+  "independent_review": false
+}
