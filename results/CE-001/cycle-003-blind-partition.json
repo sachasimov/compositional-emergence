@@ -1,0 +1,1559 @@
+{
+  "source_commit": "cbef20bc9ecff6711151736bfb351ba4ef860bf1",
+  "execution": "Committed run function executed in JS isolate; Node and pytest not run separately",
+  "cases": [
+    {
+      "name": "pair-3",
+      "result": {
+        "active": [
+          66,
+          67,
+          68,
+          80,
+          81,
+          82,
+          83,
+          84,
+          95,
+          96,
+          97,
+          98,
+          99,
+          110,
+          111,
+          112,
+          113,
+          114,
+          125,
+          126,
+          127,
+          128,
+          129,
+          141,
+          142,
+          143
+        ],
+        "excludedEverLive": [],
+        "geo": [
+          [
+            66,
+            67,
+            68,
+            80,
+            81,
+            82,
+            83,
+            84,
+            95,
+            96,
+            97,
+            98,
+            99,
+            110,
+            111,
+            112,
+            113,
+            114,
+            125,
+            126,
+            127,
+            128,
+            129,
+            141,
+            142,
+            143
+          ]
+        ],
+        "thresholds": [
+          {
+            "th": 0.01,
+            "groups": [
+              {
+                "support": [
+                  66,
+                  67,
+                  68,
+                  80,
+                  81,
+                  82,
+                  83,
+                  84,
+                  95,
+                  96,
+                  97,
+                  98,
+                  99,
+                  110,
+                  111,
+                  112,
+                  113,
+                  114,
+                  125,
+                  126,
+                  127,
+                  128,
+                  129,
+                  141,
+                  142,
+                  143
+                ],
+                "size": 26,
+                "H": 2
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 0.5,
+            "groups": [
+              {
+                "support": [
+                  66,
+                  67,
+                  68,
+                  80,
+                  81,
+                  82,
+                  83,
+                  84,
+                  95,
+                  96,
+                  97,
+                  98,
+                  99,
+                  110,
+                  111,
+                  112,
+                  113,
+                  114,
+                  125,
+                  126,
+                  127,
+                  128,
+                  129,
+                  141,
+                  142,
+                  143
+                ],
+                "size": 26,
+                "H": 2
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 1.01,
+            "groups": [
+              {
+                "support": [
+                  66
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  67
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  68
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  80
+                ],
+                "size": 1,
+                "H": 0.8112781244591328
+              },
+              {
+                "support": [
+                  81,
+                  82,
+                  83,
+                  95,
+                  96,
+                  97,
+                  98,
+                  99,
+                  110,
+                  111,
+                  112,
+                  113,
+                  114,
+                  126,
+                  127,
+                  128
+                ],
+                "size": 16,
+                "H": 2
+              },
+              {
+                "support": [
+                  84
+                ],
+                "size": 1,
+                "H": 0.8112781244591328
+              },
+              {
+                "support": [
+                  125
+                ],
+                "size": 1,
+                "H": 0.8112781244591328
+              },
+              {
+                "support": [
+                  129
+                ],
+                "size": 1,
+                "H": 0.8112781244591328
+              },
+              {
+                "support": [
+                  141
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  142
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  143
+                ],
+                "size": 1,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 9.24511249783653
+          }
+        ]
+      }
+    },
+    {
+      "name": "pair-3-rot",
+      "result": {
+        "active": [
+          81,
+          82,
+          83,
+          84,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          141,
+          142,
+          143,
+          144
+        ],
+        "excludedEverLive": [],
+        "geo": [
+          [
+            81,
+            82,
+            83,
+            84,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            141,
+            142,
+            143,
+            144
+          ]
+        ],
+        "thresholds": [
+          {
+            "th": 0.01,
+            "groups": [
+              {
+                "support": [
+                  81,
+                  82,
+                  83,
+                  84,
+                  95,
+                  96,
+                  97,
+                  98,
+                  99,
+                  100,
+                  110,
+                  111,
+                  112,
+                  113,
+                  114,
+                  115,
+                  125,
+                  126,
+                  127,
+                  128,
+                  129,
+                  130,
+                  141,
+                  142,
+                  143,
+                  144
+                ],
+                "size": 26,
+                "H": 2
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 0.5,
+            "groups": [
+              {
+                "support": [
+                  81,
+                  82,
+                  83,
+                  84,
+                  95,
+                  96,
+                  97,
+                  98,
+                  99,
+                  100,
+                  110,
+                  111,
+                  112,
+                  113,
+                  114,
+                  115,
+                  125,
+                  126,
+                  127,
+                  128,
+                  129,
+                  130,
+                  141,
+                  142,
+                  143,
+                  144
+                ],
+                "size": 26,
+                "H": 2
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 1.01,
+            "groups": [
+              {
+                "support": [
+                  81
+                ],
+                "size": 1,
+                "H": 0.8112781244591328
+              },
+              {
+                "support": [
+                  82,
+                  83,
+                  96,
+                  97,
+                  98,
+                  99,
+                  111,
+                  112,
+                  113,
+                  114,
+                  126,
+                  127,
+                  128,
+                  129,
+                  142,
+                  143
+                ],
+                "size": 16,
+                "H": 2
+              },
+              {
+                "support": [
+                  84
+                ],
+                "size": 1,
+                "H": 0.8112781244591328
+              },
+              {
+                "support": [
+                  95
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  100
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  110
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  115
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  125
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  130
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  141
+                ],
+                "size": 1,
+                "H": 0.8112781244591328
+              },
+              {
+                "support": [
+                  144
+                ],
+                "size": 1,
+                "H": 0.8112781244591328
+              }
+            ],
+            "totalCorrelation": 9.24511249783653
+          }
+        ]
+      }
+    },
+    {
+      "name": "pair-4",
+      "result": {
+        "active": [
+          67,
+          81,
+          83,
+          97,
+          127,
+          141,
+          143,
+          157
+        ],
+        "excludedEverLive": [
+          82,
+          142
+        ],
+        "geo": [
+          [
+            67,
+            81,
+            83,
+            97
+          ],
+          [
+            127,
+            141,
+            143,
+            157
+          ]
+        ],
+        "thresholds": [
+          {
+            "th": 0.01,
+            "groups": [
+              {
+                "support": [
+                  67,
+                  81,
+                  83,
+                  97
+                ],
+                "size": 4,
+                "H": 1
+              },
+              {
+                "support": [
+                  127,
+                  141,
+                  143,
+                  157
+                ],
+                "size": 4,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 0.5,
+            "groups": [
+              {
+                "support": [
+                  67,
+                  81,
+                  83,
+                  97
+                ],
+                "size": 4,
+                "H": 1
+              },
+              {
+                "support": [
+                  127,
+                  141,
+                  143,
+                  157
+                ],
+                "size": 4,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 1.01,
+            "groups": [
+              {
+                "support": [
+                  67
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  81
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  83
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  97
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  127
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  141
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  143
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  157
+                ],
+                "size": 1,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 6
+          }
+        ]
+      }
+    },
+    {
+      "name": "pair-4-rot",
+      "result": {
+        "active": [
+          95,
+          99,
+          109,
+          111,
+          113,
+          115,
+          125,
+          129
+        ],
+        "excludedEverLive": [
+          110,
+          114
+        ],
+        "geo": [
+          [
+            95,
+            109,
+            111,
+            125
+          ],
+          [
+            99,
+            113,
+            115,
+            129
+          ]
+        ],
+        "thresholds": [
+          {
+            "th": 0.01,
+            "groups": [
+              {
+                "support": [
+                  95,
+                  109,
+                  111,
+                  125
+                ],
+                "size": 4,
+                "H": 1
+              },
+              {
+                "support": [
+                  99,
+                  113,
+                  115,
+                  129
+                ],
+                "size": 4,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 0.5,
+            "groups": [
+              {
+                "support": [
+                  95,
+                  109,
+                  111,
+                  125
+                ],
+                "size": 4,
+                "H": 1
+              },
+              {
+                "support": [
+                  99,
+                  113,
+                  115,
+                  129
+                ],
+                "size": 4,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 1.01,
+            "groups": [
+              {
+                "support": [
+                  95
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  99
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  109
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  111
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  113
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  115
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  125
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  129
+                ],
+                "size": 1,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 6
+          }
+        ]
+      }
+    },
+    {
+      "name": "pair-5",
+      "result": {
+        "active": [
+          67,
+          81,
+          83,
+          97,
+          142,
+          156,
+          158,
+          172
+        ],
+        "excludedEverLive": [
+          82,
+          157
+        ],
+        "geo": [
+          [
+            67,
+            81,
+            83,
+            97
+          ],
+          [
+            142,
+            156,
+            158,
+            172
+          ]
+        ],
+        "thresholds": [
+          {
+            "th": 0.01,
+            "groups": [
+              {
+                "support": [
+                  67,
+                  81,
+                  83,
+                  97
+                ],
+                "size": 4,
+                "H": 1
+              },
+              {
+                "support": [
+                  142,
+                  156,
+                  158,
+                  172
+                ],
+                "size": 4,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 0.5,
+            "groups": [
+              {
+                "support": [
+                  67,
+                  81,
+                  83,
+                  97
+                ],
+                "size": 4,
+                "H": 1
+              },
+              {
+                "support": [
+                  142,
+                  156,
+                  158,
+                  172
+                ],
+                "size": 4,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 1.01,
+            "groups": [
+              {
+                "support": [
+                  67
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  81
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  83
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  97
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  142
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  156
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  158
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  172
+                ],
+                "size": 1,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 6
+          }
+        ]
+      }
+    },
+    {
+      "name": "pair-5-rot",
+      "result": {
+        "active": [
+          94,
+          99,
+          108,
+          110,
+          113,
+          115,
+          124,
+          129
+        ],
+        "excludedEverLive": [
+          109,
+          114
+        ],
+        "geo": [
+          [
+            94,
+            108,
+            110,
+            124
+          ],
+          [
+            99,
+            113,
+            115,
+            129
+          ]
+        ],
+        "thresholds": [
+          {
+            "th": 0.01,
+            "groups": [
+              {
+                "support": [
+                  94,
+                  108,
+                  110,
+                  124
+                ],
+                "size": 4,
+                "H": 1
+              },
+              {
+                "support": [
+                  99,
+                  113,
+                  115,
+                  129
+                ],
+                "size": 4,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 0.5,
+            "groups": [
+              {
+                "support": [
+                  94,
+                  108,
+                  110,
+                  124
+                ],
+                "size": 4,
+                "H": 1
+              },
+              {
+                "support": [
+                  99,
+                  113,
+                  115,
+                  129
+                ],
+                "size": 4,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 1.01,
+            "groups": [
+              {
+                "support": [
+                  94
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  99
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  108
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  110
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  113
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  115
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  124
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  129
+                ],
+                "size": 1,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 6
+          }
+        ]
+      }
+    },
+    {
+      "name": "pair-6",
+      "result": {
+        "active": [
+          67,
+          81,
+          83,
+          97,
+          157,
+          171,
+          173,
+          187
+        ],
+        "excludedEverLive": [
+          82,
+          172
+        ],
+        "geo": [
+          [
+            67,
+            81,
+            83,
+            97
+          ],
+          [
+            157,
+            171,
+            173,
+            187
+          ]
+        ],
+        "thresholds": [
+          {
+            "th": 0.01,
+            "groups": [
+              {
+                "support": [
+                  67,
+                  81,
+                  83,
+                  97
+                ],
+                "size": 4,
+                "H": 1
+              },
+              {
+                "support": [
+                  157,
+                  171,
+                  173,
+                  187
+                ],
+                "size": 4,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 0.5,
+            "groups": [
+              {
+                "support": [
+                  67,
+                  81,
+                  83,
+                  97
+                ],
+                "size": 4,
+                "H": 1
+              },
+              {
+                "support": [
+                  157,
+                  171,
+                  173,
+                  187
+                ],
+                "size": 4,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 1.01,
+            "groups": [
+              {
+                "support": [
+                  67
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  81
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  83
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  97
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  157
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  171
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  173
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  187
+                ],
+                "size": 1,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 6
+          }
+        ]
+      }
+    },
+    {
+      "name": "pair-6-rot",
+      "result": {
+        "active": [
+          93,
+          99,
+          107,
+          109,
+          113,
+          115,
+          123,
+          129
+        ],
+        "excludedEverLive": [
+          108,
+          114
+        ],
+        "geo": [
+          [
+            93,
+            107,
+            109,
+            123
+          ],
+          [
+            99,
+            113,
+            115,
+            129
+          ]
+        ],
+        "thresholds": [
+          {
+            "th": 0.01,
+            "groups": [
+              {
+                "support": [
+                  93,
+                  107,
+                  109,
+                  123
+                ],
+                "size": 4,
+                "H": 1
+              },
+              {
+                "support": [
+                  99,
+                  113,
+                  115,
+                  129
+                ],
+                "size": 4,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 0.5,
+            "groups": [
+              {
+                "support": [
+                  93,
+                  107,
+                  109,
+                  123
+                ],
+                "size": 4,
+                "H": 1
+              },
+              {
+                "support": [
+                  99,
+                  113,
+                  115,
+                  129
+                ],
+                "size": 4,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 1.01,
+            "groups": [
+              {
+                "support": [
+                  93
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  99
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  107
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  109
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  113
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  115
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  123
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  129
+                ],
+                "size": 1,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 6
+          }
+        ]
+      }
+    },
+    {
+      "name": "single",
+      "result": {
+        "active": [
+          67,
+          81,
+          83,
+          97
+        ],
+        "excludedEverLive": [
+          82
+        ],
+        "geo": [
+          [
+            67,
+            81,
+            83,
+            97
+          ]
+        ],
+        "thresholds": [
+          {
+            "th": 0.01,
+            "groups": [
+              {
+                "support": [
+                  67,
+                  81,
+                  83,
+                  97
+                ],
+                "size": 4,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 0.5,
+            "groups": [
+              {
+                "support": [
+                  67,
+                  81,
+                  83,
+                  97
+                ],
+                "size": 4,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 1.01,
+            "groups": [
+              {
+                "support": [
+                  67
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  81
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  83
+                ],
+                "size": 1,
+                "H": 1
+              },
+              {
+                "support": [
+                  97
+                ],
+                "size": 1,
+                "H": 1
+              }
+            ],
+            "totalCorrelation": 3
+          }
+        ]
+      }
+    },
+    {
+      "name": "empty",
+      "result": {
+        "active": [],
+        "excludedEverLive": [],
+        "geo": [],
+        "thresholds": [
+          {
+            "th": 0.01,
+            "groups": [],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 0.5,
+            "groups": [],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 1.01,
+            "groups": [],
+            "totalCorrelation": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "static",
+      "result": {
+        "active": [],
+        "excludedEverLive": [
+          66,
+          67,
+          81,
+          82,
+          141,
+          142,
+          156,
+          157
+        ],
+        "geo": [],
+        "thresholds": [
+          {
+            "th": 0.01,
+            "groups": [],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 0.5,
+            "groups": [],
+            "totalCorrelation": 0
+          },
+          {
+            "th": 1.01,
+            "groups": [],
+            "totalCorrelation": 0
+          }
+        ]
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "pair-3 rotation",
+      "pass": true
+    },
+    {
+      "name": "pair-4 rotation",
+      "pass": true
+    },
+    {
+      "name": "pair-5 rotation",
+      "pass": true
+    },
+    {
+      "name": "pair-6 rotation",
+      "pass": true
+    },
+    {
+      "name": "separated pair low thresholds",
+      "pass": true
+    },
+    {
+      "name": "empty and static abstain",
+      "pass": true
+    },
+    {
+      "name": "panel count",
+      "pass": true
+    }
+  ]
+}
