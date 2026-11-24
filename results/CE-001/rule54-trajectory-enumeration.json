@@ -1,0 +1,456 @@
+{
+  "environment": "Code Mode JS isolate",
+  "inputBlob": "a6aa0158f9021c3bbe8cb9568a10b1e562cbd3b3",
+  "results": [
+    {
+      "id": "26",
+      "status": "enumerated",
+      "unknown": 0,
+      "completions": 1,
+      "compatible": 1,
+      "joint": 1,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "27",
+      "status": "enumerated",
+      "unknown": 6,
+      "completions": 64,
+      "compatible": 16,
+      "joint": 16,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "29a",
+      "status": "enumerated",
+      "unknown": 6,
+      "completions": 64,
+      "compatible": 16,
+      "joint": 16,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "31a",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "36a",
+      "status": "enumerated",
+      "unknown": 4,
+      "completions": 16,
+      "compatible": 8,
+      "joint": 8,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "36a-reflected",
+      "status": "enumerated",
+      "unknown": 4,
+      "completions": 16,
+      "compatible": 8,
+      "joint": 8,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "36b",
+      "status": "enumerated",
+      "unknown": 6,
+      "completions": 64,
+      "compatible": 16,
+      "joint": 16,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "36c",
+      "status": "enumerated",
+      "unknown": 6,
+      "completions": 64,
+      "compatible": 16,
+      "joint": 16,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "37",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "39a",
+      "status": "enumerated",
+      "unknown": 4,
+      "completions": 16,
+      "compatible": 8,
+      "joint": 0,
+      "counter": 8,
+      "match": true
+    },
+    {
+      "id": "39b",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "40a",
+      "status": "enumerated",
+      "unknown": 1,
+      "completions": 2,
+      "compatible": 2,
+      "joint": 2,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "40b-1",
+      "status": "enumerated",
+      "unknown": 4,
+      "completions": 16,
+      "compatible": 8,
+      "joint": 0,
+      "counter": 8,
+      "match": true
+    },
+    {
+      "id": "40b-2",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "41a",
+      "status": "enumerated",
+      "unknown": 1,
+      "completions": 2,
+      "compatible": 2,
+      "joint": 2,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "41b-1",
+      "status": "enumerated",
+      "unknown": 5,
+      "completions": 32,
+      "compatible": 8,
+      "joint": 8,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "41b-2",
+      "status": "enumerated",
+      "unknown": 3,
+      "completions": 8,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "41c-1",
+      "status": "enumerated",
+      "unknown": 6,
+      "completions": 64,
+      "compatible": 16,
+      "joint": 16,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "41c-2",
+      "status": "enumerated",
+      "unknown": 4,
+      "completions": 16,
+      "compatible": 8,
+      "joint": 8,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "41c-3",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "41d-1",
+      "status": "enumerated",
+      "unknown": 6,
+      "completions": 64,
+      "compatible": 16,
+      "joint": 16,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "41d-2",
+      "status": "enumerated",
+      "unknown": 8,
+      "completions": 256,
+      "compatible": 128,
+      "joint": 0,
+      "counter": 128,
+      "match": true
+    },
+    {
+      "id": "41d-3",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35b-k0",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35a-k1",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35b-k1",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35a-k2",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35b-k2",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35a-k3",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35b-k3",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35a-k4",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35b-k4",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35a-k5",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35b-k5",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35a-k6",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35b-k6",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35a-k7",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35b-k7",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35a-k8",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "35b-k8",
+      "status": "enumerated",
+      "unknown": 2,
+      "completions": 4,
+      "compatible": 4,
+      "joint": 4,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "39a-alt",
+      "status": "enumerated",
+      "unknown": 4,
+      "completions": 16,
+      "compatible": 8,
+      "joint": 8,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "40b-1-alt",
+      "status": "enumerated",
+      "unknown": 4,
+      "completions": 16,
+      "compatible": 8,
+      "joint": 8,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "41d-2-alt",
+      "status": "enumerated",
+      "unknown": 4,
+      "completions": 16,
+      "compatible": 8,
+      "joint": 8,
+      "counter": 0,
+      "match": true
+    },
+    {
+      "id": "41b-1-initial-transcription",
+      "status": "enumerated",
+      "unknown": 5,
+      "completions": 32,
+      "compatible": 8,
+      "joint": 0,
+      "counter": 8,
+      "match": true
+    },
+    {
+      "id": "negative-control",
+      "status": "enumerated",
+      "unknown": 0,
+      "completions": 1,
+      "compatible": 1,
+      "joint": 0,
+      "counter": 1,
+      "match": true
+    }
+  ]
+}
