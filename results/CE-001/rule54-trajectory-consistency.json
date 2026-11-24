@@ -1,0 +1,1671 @@
+{
+  "inputRevision": "e69ae8e0dddb9e2aa06758365ddccd2991b2c452",
+  "environment": "Code Mode JS isolate",
+  "results": [
+    {
+      "id": "26",
+      "group": "reference",
+      "priorPass": true,
+      "a": "1000o",
+      "b": "PPMM",
+      "variables": 9,
+      "clauses": 32,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": 0,
+          "x0": 0,
+          "bits": "10001",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": 0,
+          "x0": 0,
+          "bits": "10001",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "27",
+      "group": "reference",
+      "priorPass": true,
+      "a": "MMPP",
+      "b": "1000o",
+      "variables": 21,
+      "clauses": 96,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 5,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "000010000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 5,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "000010000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "29a",
+      "group": "reference",
+      "priorPass": true,
+      "a": "MMPP",
+      "b": "PPMM",
+      "variables": 25,
+      "clauses": 128,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 5,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "000010000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 5,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "000010000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "31a",
+      "group": "reference",
+      "priorPass": true,
+      "a": "MP",
+      "b": "11o",
+      "variables": 8,
+      "clauses": 24,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "36a",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M11oPP",
+      "b": "PPM11o",
+      "variables": 22,
+      "clauses": 104,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 3,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "001110000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 3,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "001110000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "36a-reflected",
+      "group": "reference",
+      "priorPass": true,
+      "a": "MM11P",
+      "b": "11PMM",
+      "variables": 22,
+      "clauses": 104,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 3,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "000011100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 3,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "000011100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "36b",
+      "group": "reference",
+      "priorPass": true,
+      "a": "MMPMPP",
+      "b": "PPPMMM",
+      "variables": 36,
+      "clauses": 200,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 5,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "00001010000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 5,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "00001010000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "36c",
+      "group": "reference",
+      "priorPass": true,
+      "a": "MMP1MPP",
+      "b": "PPP1MMM",
+      "variables": 42,
+      "clauses": 240,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 5,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "000010010000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 5,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "000010010000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "37",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M11o11P",
+      "b": "PPPMMM",
+      "variables": 25,
+      "clauses": 128,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "001111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "001111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "39a",
+      "group": "reference",
+      "priorPass": false,
+      "a": "M11oPMPP",
+      "b": "PPM11oMM",
+      "variables": 27,
+      "clauses": 128,
+      "displacementMatches": false,
+      "input": {
+        "status": "sat",
+        "nodes": 3,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111010000",
+          "okA": true,
+          "okB": false
+        }
+      },
+      "joint": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      },
+      "counter": {
+        "status": "sat",
+        "nodes": 3,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111010000",
+          "okA": true,
+          "okB": false
+        }
+      }
+    },
+    {
+      "id": "39b",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M11oPM11P",
+      "b": "PPPPMMMM",
+      "variables": 36,
+      "clauses": 200,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111011100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111011100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "40a",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M11oPM",
+      "b": "PPMMM",
+      "variables": 16,
+      "clauses": 72,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011101",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011101",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "40b-1",
+      "group": "reference",
+      "priorPass": false,
+      "a": "MPP",
+      "b": "M11o",
+      "variables": 12,
+      "clauses": 40,
+      "displacementMatches": false,
+      "input": {
+        "status": "sat",
+        "nodes": 3,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0010000",
+          "okA": true,
+          "okB": false
+        }
+      },
+      "joint": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      },
+      "counter": {
+        "status": "sat",
+        "nodes": 3,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0010000",
+          "okA": true,
+          "okB": false
+        }
+      }
+    },
+    {
+      "id": "40b-2",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M11P",
+      "b": "PPMM",
+      "variables": 16,
+      "clauses": 72,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "41a",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M11oP1M",
+      "b": "PPMM1M",
+      "variables": 18,
+      "clauses": 80,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111001",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111001",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "41b-1",
+      "group": "reference",
+      "priorPass": true,
+      "a": "1MPP",
+      "b": "111P",
+      "variables": 15,
+      "clauses": 56,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 4,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "01010000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 4,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "01010000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "41b-2",
+      "group": "reference",
+      "priorPass": true,
+      "a": "1M11P",
+      "b": "1PPMM",
+      "variables": 18,
+      "clauses": 80,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 2,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "01011100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 2,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "01011100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "41c-1",
+      "group": "reference",
+      "priorPass": true,
+      "a": "MM1PP",
+      "b": "11111o",
+      "variables": 24,
+      "clauses": 112,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 5,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "0000110000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 5,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "0000110000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "41c-2",
+      "group": "reference",
+      "priorPass": true,
+      "a": "MM111P",
+      "b": "11P1MM",
+      "variables": 26,
+      "clauses": 128,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 3,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "0000111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 3,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "0000111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "41c-3",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M11o111P",
+      "b": "PPP1MMM",
+      "variables": 30,
+      "clauses": 160,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "41d-1",
+      "group": "reference",
+      "priorPass": true,
+      "a": "MM11111oPP",
+      "b": "11PP1MM11o",
+      "variables": 42,
+      "clauses": 224,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 5,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "00001111110000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 5,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "00001111110000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "41d-2",
+      "group": "reference",
+      "priorPass": false,
+      "a": "MM11111o11P",
+      "b": "11PPPPP1MMMM",
+      "variables": 78,
+      "clauses": 480,
+      "displacementMatches": false,
+      "input": {
+        "status": "sat",
+        "nodes": 16,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "000011111111000000",
+          "okA": true,
+          "okB": false
+        }
+      },
+      "joint": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      },
+      "counter": {
+        "status": "sat",
+        "nodes": 16,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "000011111111000000",
+          "okA": true,
+          "okB": false
+        }
+      }
+    },
+    {
+      "id": "41d-3",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M11o11111o11P",
+      "b": "PPPPP1MMMMM",
+      "variables": 56,
+      "clauses": 336,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35b-k0",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M1P",
+      "b": "P1M",
+      "variables": 12,
+      "clauses": 48,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "001100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "001100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35a-k1",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M11P",
+      "b": "PPMM",
+      "variables": 16,
+      "clauses": 72,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35b-k1",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M111P",
+      "b": "PP1MM",
+      "variables": 20,
+      "clauses": 96,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35a-k2",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M1111P",
+      "b": "PPPMMM",
+      "variables": 25,
+      "clauses": 128,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "001111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "001111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35b-k2",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M11111P",
+      "b": "PPP1MMM",
+      "variables": 30,
+      "clauses": 160,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35a-k3",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M111111P",
+      "b": "PPPPMMMM",
+      "variables": 36,
+      "clauses": 200,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35b-k3",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M1111111P",
+      "b": "PPPP1MMMM",
+      "variables": 42,
+      "clauses": 240,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "001111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "001111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35a-k4",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M11111111P",
+      "b": "PPPPPMMMMM",
+      "variables": 49,
+      "clauses": 288,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35b-k4",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M111111111P",
+      "b": "PPPPP1MMMMM",
+      "variables": 56,
+      "clauses": 336,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35a-k5",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M1111111111P",
+      "b": "PPPPPPMMMMMM",
+      "variables": 64,
+      "clauses": 392,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "001111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "001111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35b-k5",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M11111111111P",
+      "b": "PPPPPP1MMMMMM",
+      "variables": 72,
+      "clauses": 448,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35a-k6",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M111111111111P",
+      "b": "PPPPPPPMMMMMMM",
+      "variables": 81,
+      "clauses": 512,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35b-k6",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M1111111111111P",
+      "b": "PPPPPPP1MMMMMMM",
+      "variables": 90,
+      "clauses": 576,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "001111111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "001111111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35a-k7",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M11111111111111P",
+      "b": "PPPPPPPPMMMMMMMM",
+      "variables": 100,
+      "clauses": 648,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011111111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011111111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35b-k7",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M111111111111111P",
+      "b": "PPPPPPPP1MMMMMMMM",
+      "variables": 110,
+      "clauses": 720,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111111111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111111111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35a-k8",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M1111111111111111P",
+      "b": "PPPPPPPPPMMMMMMMMM",
+      "variables": 121,
+      "clauses": 800,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "001111111111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "001111111111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "35b-k8",
+      "group": "reference",
+      "priorPass": true,
+      "a": "M11111111111111111P",
+      "b": "PPPPPPPPP1MMMMMMMMM",
+      "variables": 132,
+      "clauses": 880,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011111111111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0011111111111111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "39a-alt",
+      "group": "candidate-correction",
+      "priorPass": true,
+      "a": "M11oPMPP",
+      "b": "PP11PMM",
+      "variables": 33,
+      "clauses": 176,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 3,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111010000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 3,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "00111010000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "40b-1-alt",
+      "group": "candidate-correction",
+      "priorPass": true,
+      "a": "MPP",
+      "b": "11P",
+      "variables": 13,
+      "clauses": 48,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 3,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0010000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 3,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "0010000",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "41d-2-alt",
+      "group": "candidate-correction",
+      "priorPass": true,
+      "a": "MM11111o11P",
+      "b": "11PPP1MMMM",
+      "variables": 48,
+      "clauses": 272,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 3,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "00001111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "joint": {
+        "status": "sat",
+        "nodes": 3,
+        "witness": {
+          "t0": -2,
+          "x0": -2,
+          "bits": "00001111111100",
+          "okA": true,
+          "okB": true
+        }
+      },
+      "counter": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      }
+    },
+    {
+      "id": "41b-1-initial-transcription",
+      "group": "transcription-error",
+      "priorPass": false,
+      "a": "1MPP",
+      "b": "1M11o",
+      "variables": 14,
+      "clauses": 48,
+      "displacementMatches": false,
+      "input": {
+        "status": "sat",
+        "nodes": 4,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "01010000",
+          "okA": true,
+          "okB": false
+        }
+      },
+      "joint": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      },
+      "counter": {
+        "status": "sat",
+        "nodes": 4,
+        "witness": {
+          "t0": -1,
+          "x0": -1,
+          "bits": "01010000",
+          "okA": true,
+          "okB": false
+        }
+      }
+    },
+    {
+      "id": "negative-control",
+      "group": "negative-control",
+      "priorPass": false,
+      "a": "1000o",
+      "b": "0000o",
+      "variables": 5,
+      "clauses": 0,
+      "displacementMatches": true,
+      "input": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": 0,
+          "x0": 0,
+          "bits": "10001",
+          "okA": true,
+          "okB": false
+        }
+      },
+      "joint": {
+        "status": "unsat",
+        "nodes": 1,
+        "witness": null
+      },
+      "counter": {
+        "status": "sat",
+        "nodes": 1,
+        "witness": {
+          "t0": 0,
+          "x0": 0,
+          "bits": "10001",
+          "okA": true,
+          "okB": false
+        }
+      }
+    }
+  ]
+}
